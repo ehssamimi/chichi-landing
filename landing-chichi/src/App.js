@@ -3,11 +3,13 @@ import React from 'react';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
  import Landing from "./Components/Landing";
+import SIgnUpPage from "./Components/SignUp/SIgnUpPage";
 
 function App() {
   return (
     <div className="App">
-   <Landing/>
+   {/*<Landing/>*/}
+   <SIgnUpPage/>
 
     </div>
   );
