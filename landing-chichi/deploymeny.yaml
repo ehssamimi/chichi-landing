@@ -13,10 +13,21 @@ spec:
     spec:
       containers:
       - name: chichiapp.ir
-        image: includeamin/chichiapp.ir:latest
+        image: includeamin/chichiapp.ir:1
         resources:
           limits:
             memory: "128Mi"
             cpu: "500m"
         ports:
-        - containerPort: 3000
+        - containerPort: 3080
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: chichiapp.ir
+spec:
+  selector:
+    app: chichiapp.ir
+  ports:
+  - port: 3080
+    targetPort: 3080
