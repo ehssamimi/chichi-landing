@@ -73,7 +73,11 @@ h1 {
 }
 .vh-30{
   height: 30vh;
-}.vh-40{
+}
+.vh-35{
+  height: 35vh;
+}
+.vh-40{
   height: 40vh;
 }
 .vh-50{
@@ -93,7 +97,7 @@ h1 {
 }
 
 .fs-1vw{
-  font-size: 1vw !important;
+  font-size: calc(1vw + 0.3em) !important;
 }
 .fs-13vw{
   font-size:  calc(1.3vw + 0.5em) !important;
@@ -114,7 +118,7 @@ h1 {
   font-size:calc(2vw ) !important;
 }
 .fs-25vw{
-  font-size:calc(2.5vw ) !important;
+  font-size:calc(2.5vw  + 0.4em) !important;
 }
  .img-self-cover{
    width: 100%;
@@ -210,6 +214,9 @@ border: 1px solid rgba(3,143,254,1) !important;
   .vh-20-responsive{
     height:5em;
   }
+  .vh-40-responsive{
+    height:25em;
+  }
   .vh-110-responsive{
     height:25em;
   }
@@ -226,12 +233,22 @@ border: 1px solid rgba(3,143,254,1) !important;
   .vh-20-responsive{
     height:10em;
   }
+   .vh-40-responsive{
+     height:25em;
+   }
   .vh-110-responsive{
     height:55em;
   }
 
 }
+.main-right-margin{
+  margin-right: 5vw !important; ;
+}
 
+input,
+input::-webkit-input-placeholder {
+    font-size: calc(1.2vw + 0.3em) !important;
+}
 
 /*@media screen and (max-width: 600px) {*/
 
