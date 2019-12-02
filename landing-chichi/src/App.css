@@ -142,9 +142,15 @@ h1 {
   height: 5vh !important;
 }
 .btn-blue-Color{
-  background: linear-gradient(90deg, rgba(28,178,255,1) 1%, rgba(3,143,254,1) 100%);
-border: 0!important;
+  /*background: linear-gradient(90deg, rgba(28,178,255,1) 1%, rgba(3,143,254,1) 100%);*/
+  background: white!important;
+border: 1px solid rgba(3,143,254,1) !important;
+  color: rgba(3,143,254,1) !important;
   border-radius: 25px!important;
+  font-weight: bold!important;
+}
+.btn-blue-Color:focus{
+  box-shadow: 0 0 0 0.1rem rgba(3,143,254,1) !important;
 }
 .l-H-3{
   line-height: 3vh;
@@ -161,3 +167,76 @@ border: 0!important;
 .margin-Zero{
   margin: 0!important;
 }
+
+.bottomLanding{
+  background-image: url("./Common/Img/bottom.png");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+/*@media only screen and (max-width: 480px) {*/
+  /*.vh-5-responsive{*/
+    /*height: 1.5em;*/
+  /*}*/
+  /*.vh-10-responsive {*/
+    /*height: 2.5em;*/
+  /*}*/
+  /*.vh-20-responsive{*/
+    /*height:5em;*/
+  /*}*/
+  /*.vh-110-responsive{*/
+    /*height:25em;*/
+  /*}*/
+/*}*/
+
+
+
+
+@media only screen and (max-width: 600px) {
+
+  .vh-5-responsive{
+    height: 1.5em;
+  }
+  .vh-10-responsive {
+    height: 2.5em;
+  }
+  .vh-20-responsive{
+    height:5em;
+  }
+  .vh-110-responsive{
+    height:25em;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+ @media only screen and (min-width: 601px) {
+  .vh-5-responsive{
+    height: 2.5em;
+  }
+  .vh-10-responsive {
+    height: 5em;
+  }
+  .vh-20-responsive{
+    height:10em;
+  }
+  .vh-110-responsive{
+    height:55em;
+  }
+
+}
+
+
+/*@media screen and (max-width: 600px) {*/
+
+/*}*/
+/*@media  screen and (min-width: 601px) {*/
+
+
+/*}*/
