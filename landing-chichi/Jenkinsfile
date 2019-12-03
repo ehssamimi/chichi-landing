@@ -1,0 +1,75 @@
+pipeline{
+    agent any
+    environment {
+
+        BUILD_NUMBER = '${currentBuild.number}'
+        REGISTRY_NAME = '...'
+        IMAGE_NAME = 'chichiapp.ir'
+        FINAL_IMAGE_NAME = '${REGISTRY}/${IMAGE_NAME}:${BUILD_NUMBER}'
+        SSH_USER = ''
+        SSH_HOST = ''
+        SSH_NAME = ''
+        SSH_PASSWORD = ''
+
+
+    }
+    stages{
+        stage("build docker image"){
+            steps{
+                script { 
+                    docker.build $FINAL_IMAGE_NAME
+                }
+            }
+            post{
+                always{
+                    echo "========always========"
+                }
+                success{
+                    echo "========A executed successfully========"
+                }
+                failure{
+                    echo "========A execution failed========"
+                }
+            }
+        }
+    }
+    stage("push to registery"){
+        steps{
+           docker.withRegistry("https://"+$FINAL_IMAGE_NAME, registryCredential) {
+                        image.push()
+
+              }
+
+        }
+        post{
+            always{
+                echo "====++++always++++===="
+            }
+            success{
+                echo "====++++push to registery executed succesfully++++===="
+            }
+            failure{
+                echo "====++++push to registery execution failed++++===="
+            }
+    
+        }
+    }
+
+    stage("apply to cluster"){
+        steps{
+            echo "====++++executing apply to cluster++++===="
+        }
+        post{
+            always{
+                echo "====++++always++++===="
+            }
+            success{
+                echo "====++++apply to cluster executed succesfully++++===="
+            }
+            failure{
+                echo "====++++apply to cluster execution failed++++===="
+            }
+    
+        }
+    }
+}
