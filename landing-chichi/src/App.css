@@ -203,57 +203,121 @@ border: 1px solid rgba(3,143,254,1) !important;
 
 
 
-@media only screen and (max-width: 600px) {
-
-  .vh-5-responsive{
-    height: 1.5em;
-  }
-  .vh-10-responsive {
-    height: 2.5em;
-  }
-  .vh-20-responsive{
-    height:5em;
-  }
-  .vh-40-responsive{
-    height:25em;
-  }
-  .vh-110-responsive{
-    height:25em;
-  }
-}
+/*@media only screen and (max-width: 600px) {*/
+    /*.fcspesial {*/
+        /*color: #d22c44 !important;*/
+    /*}*/
+  /*.vh-5-responsive{*/
+    /*height: 1.5em;*/
+  /*}*/
+  /*.vh-10-responsive {*/
+    /*height: 2.5em;*/
+  /*}*/
+  /*.vh-20-responsive{*/
+    /*height:5em;*/
+  /*}*/
+  /*.vh-40-responsive{*/
+    /*height:25em;*/
+  /*}*/
+  /*.vh-110-responsive{*/
+    /*height:25em;*/
+  /*}*/
+/*}*/
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
- @media only screen and (min-width: 601px) {
-  .vh-5-responsive{
-    height: 2.5em;
-  }
-  .vh-10-responsive {
-    height: 5em;
-  }
-  .vh-20-responsive{
-    height:10em;
-  }
-   .vh-40-responsive{
-     height:25em;
-   }
-  .vh-110-responsive{
-    height:55em;
-  }
+ /*@media only screen and (min-width: 601px) {*/
+     /*.fcspesial {*/
+         /*color: #00abed !important;*/
+     /*}*/
+  /*.vh-5-responsive{*/
+    /*height: 2.5em;*/
+  /*}*/
+  /*.vh-10-responsive {*/
+    /*height: 5em;*/
+  /*}*/
+  /*.vh-20-responsive{*/
+    /*height:10em;*/
+  /*}*/
+   /*.vh-40-responsive{*/
+     /*height:25em;*/
+   /*}*/
+  /*.vh-110-responsive{*/
+    /*height:55em;*/
+  /*}*/
 
-}
+/*}*/
 .main-right-margin{
   margin-right: 5vw !important; ;
 }
 
 input,
 input::-webkit-input-placeholder {
-    font-size: calc(1.2vw + 0.3em) !important;
+    font-size: calc(1vw + 0.2em) !important;
 }
 
-/*@media screen and (max-width: 600px) {*/
 
-/*}*/
-/*@media  screen and (min-width: 601px) {*/
+@media only screen and (max-width:320px){
+    .fcspesial {
+    color: #00abed !important;
+    }
+}
 
 
-/*}*/
+@media only screen and (min-width:321px) and (max-width:768px){
+    /*.fcspesial {*/
+        /*color: #81e0a8 !important;*/
+    /*}*/
+    .vh-top{
+        height:7em;
+    }
+    .vh-5-responsive{
+    height: 1.5em;
+    }
+    .vh-10-responsive {
+    height: 2.5em;
+    }
+    .vh-20-responsive{
+    height:5em;
+    }
+    .vh-40-responsive{
+    height:25em;
+    }
+    .vh-110-responsive{
+    height:25em;
+    }
+    .vh-35-responsive{
+    height:10em;
+    }
+}
+
+
+@media only screen and (min-width:769px){
+    /*.fcspesial {*/
+        /*color: #d22c44 !important;*/
+    /*}*/
+    .vh-top{
+        height:0;
+    }
+    .vh-5-responsive {
+        height: 2.5em;
+    }
+
+    .vh-10-responsive {
+        height: 5em;
+    }
+
+    .vh-20-responsive {
+        height: 10em;
+    }
+
+    .vh-40-responsive {
+        height: 25em;
+    }
+
+    .vh-110-responsive {
+        height: 55em;
+    }
+    .vh-35-responsive{
+        height:9em;
+    }
+}

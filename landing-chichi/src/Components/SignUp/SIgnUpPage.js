@@ -130,7 +130,7 @@ class SIgnUpPage extends Component {
                         <div className='d-flex justify-content-start flex-column text-right  '>
                             <h1 className='blueColor fs-25vw text-bold '>چی چی</h1>
                             <h2 className='mt-4 fs-13vw text-bold'>اولین اپلیکیشن سوپرمارکت آنلاین ساری</h2>
-                            <p className='mt-4 fs-1vw col-8 padding-Zero'>
+                            <p className='mt-4 fs-1vw col-8 padding-Zero fcspesial'>
                                 اولین اپلیکشینی که با اون می توانید خیلی راحت و با بیشترین تخیف خرید کنید و خرید شما خیل سریع به منزل شما میاد!
                             </p>
                             <div className=' d-flex justify-content-start align-items-center vh-5-responsive mt-4  '>
@@ -172,11 +172,14 @@ class SIgnUpPage extends Component {
                 </div>
 
                 <div className='  col-7 float-left p-0 d-flex flex-column'>
+                    <div className='vh-top'>
+
+                    </div>
                     <div>
                         <img src={firstImg} alt={firstImg} className='img-self-cover'/>
                     </div>
 
-                    <div className='vh-35'>
+                    <div className='vh-35-responsive'>
 
                     </div>
                     <div className='d-flex justify-content-center align-items-center flex-column text-center  ' id='SignUp'>
@@ -184,7 +187,7 @@ class SIgnUpPage extends Component {
                         {
                             this.state.towStage?
                                 <div className='w-100 d-flex justify-content-center align-items-center flex-column text-center '>
-                                    <p className='mt-3 fs-1vw col-6'>همین حالا با وارد کردن نام و شماره تماس خود ثبت نام کنید همچنین می توانید دوستان خود را دعوت کنید .</p>
+                                    <p className='mt-3 fs-1vw col-8 col-md-6'>همین حالا با وارد کردن نام و شماره تماس خود ثبت نام کنید همچنین می توانید دوستان خود را دعوت کنید .</p>
                                     <form className='w-100 d-flex justify-content-center align-items-center flex-column text-center' onSubmit={this.submitValidateNumber.bind(this)}>
                                         <FormGroup className='col-6'>
                                             <Input vlaue={ValidateNumber} type="number" name="ValidateNumber" id="ValidateNumber" className='InputBackGround' placeholder="شماره ارسالی را وارد کنید " onChange={this.ChangeField.bind(this)} />
@@ -192,25 +195,25 @@ class SIgnUpPage extends Component {
                                         </FormGroup>
                                         <Button type='submit' className='col-4 vh-10-responsive mt-3 btn-blue-Color fs-1vw'>ثبت نامم کن ! </Button>
                                         <span className="mt-2 fs-1vw">
-                             <Link name="first" activeClass="active" className="    w-100 pointer " to="SignUp" spy={true} smooth={true} duration={500} offset={270} > دوستانتان را دعوت  کنید  </Link>
+                             <Link name="first" activeClass="active" className="    w-100 pointer " to="SignUp" spy={true} smooth={true} duration={500} offset={500} > دوستانتان را دعوت  کنید  </Link>
                             </span>
                                     </form>
                                 </div>
                                 :
                                 <div className='w-100 d-flex justify-content-center align-items-center flex-column text-center '>
-                                    <p className='mt-3 fs-1vw col-6'>همین حالا با وارد کردن نام و شماره تماس خود ثبت نام کنید همچنین می توانید دوستان خود را دعوت کنید .</p>
+                                    <p className='mt-3 fs-1vw col-8 col-md-6'>همین حالا با وارد کردن نام و شماره تماس خود ثبت نام کنید همچنین می توانید دوستان خود را دعوت کنید .</p>
                                     <form className='w-100 d-flex justify-content-center align-items-center flex-column text-center' onSubmit={this.submitForm.bind(this)}>
-                                        <FormGroup className='col-6'>
+                                        <FormGroup className='col-8 col-md-6'>
                                             <Input vlaue={phoneNumber} type="number" name="phoneNumber" id="phoneNumber" className='InputBackGround' placeholder="شماره همراه" onChange={this.ChangeField.bind(this)} />
                                             <span className='redColor' style={{display:errors['phoneNumber']?"block":"none"}}>{errors['phoneNumber']}</span>
                                         </FormGroup>
-                                        <FormGroup className='col-6'>
+                                        <FormGroup className='col-8 col-md-6'>
                                             <Input vlaue={Name} type="text" name="Name" id="Name" className='InputBackGround' placeholder="نام و نام خانوادگی" onChange={this.ChangeField.bind(this)} />
                                             <span className='redColor' style={{display:errors['Name']?"block":"none"}}>{errors['Name']}</span>
                                         </FormGroup>
                                         <Button type='submit' className='col-4 vh-10-responsive mt-3 btn-blue-Color fs-1vw'>ثبت نامم کن ! </Button>
                                         <span className="mt-2 fs-1vw">
-                             <Link name="first" activeClass="active" className="    w-100 pointer " to="SignUp" spy={true} smooth={true} duration={500} offset={270} > دوستانتان را دعوت  کنید  </Link>
+                             <Link name="first" activeClass="active" className="    w-100 pointer " to="SignUp" spy={true} smooth={true} duration={500} offset={480} > دوستانتان را دعوت  کنید  </Link>
                             </span>
                                     </form>
                                 </div>

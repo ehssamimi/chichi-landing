@@ -108,7 +108,7 @@ class Landing extends Component {
 
                         <div className='d-flex justify-content-start align-items-center flex-column text-center  ' id='SignUp'>
                             <h1 className='  fs-25vw text-bold'>همین حالا ثبت نام کنید ! </h1>
-                            <p className='mt-3 fs-1vw col-6'>همین حالا با وارد کردن نام و شماره تماس خود ثبت نام کنید همچنین می توانید دوستان خود را دعوت کنید .</p>
+                            <p className='mt-3 fs-1vw col-8 col-md-6 '>همین حالا با وارد کردن نام و شماره تماس خود ثبت نام کنید همچنین می توانید دوستان خود را دعوت کنید .</p>
                             <form className='w-100 d-flex justify-content-center align-items-center flex-column text-center' onSubmit={this.submitForm.bind(this)}>
                                 <FormGroup className='col-6'>
                                     <Input vlaue={Name} type="text" name="Name" id="Name" className='InputBackGround' placeholder="نام و نام خانوادگی"  onChange={this.ChangeField.bind(this)}/>
