@@ -1,24 +1,21 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
+  labels: {app: chichilanding}
   name: chichilanding
-  labels:
-    app: chichilanding
 spec:
   replicas: 1
+  selector:
+    matchLabels: {app: chichilanding}
   template:
     metadata:
+      labels: {app: chichilanding}
       name: chichilanding
-      labels:
-        app: chichilanding
     spec:
       containers:
-        - name: chichilanding
-          image: includeamin/chichilanding:v1
-          imagePullPolicy: IfNotPresent
-          ports:
-            - containerPort: 80
+      - image: includeamin/chichilanding:4
+        imagePullPolicy: IfNotPresent
+        name: chichilanding
+        ports:
+        - {containerPort: 80}
       restartPolicy: Always
-  selector:
-    matchLabels:
-      app: chichilanding
