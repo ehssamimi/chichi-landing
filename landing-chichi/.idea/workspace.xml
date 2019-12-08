@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6edfc38b-0ea9-4c48-96af-193e8311b1e5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/build-count.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deployment.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deployment_update.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nodePort.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/landing-chichi.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/landing-chichi.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/deployment.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nodePort.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/nodePort.yaml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -88,7 +82,7 @@
       <workItem from="1575275950155" duration="17879000" />
       <workItem from="1575360690117" duration="1307000" />
       <workItem from="1575436733628" duration="3474000" />
-      <workItem from="1575792273698" duration="4305000" />
+      <workItem from="1575792273698" duration="4751000" />
     </task>
     <servers />
   </component>

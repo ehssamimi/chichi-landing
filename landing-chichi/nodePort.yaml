@@ -1,10 +1,10 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: chichi_landing
+  name: chichilanding
 spec:
   selector:
-    app: chichi_landing
+    app: chichilanding
   ports:
     - port: 3000
       targetPort: 3800
