@@ -7,7 +7,7 @@ spec:
     app: chichilanding
   ports:
     - port: 80
-      targetPort: 3800
+      targetPort: 80
       nodePort: 32030
       protocol: TCP
       name: chichilanding
