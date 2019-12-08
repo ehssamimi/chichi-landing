@@ -13,7 +13,7 @@ spec:
       name: chichilanding
     spec:
       containers:
-      - image: includeamin/chichilanding:4
+      - image: includeamin/chichilanding:5
         imagePullPolicy: IfNotPresent
         name: chichilanding
         ports:
