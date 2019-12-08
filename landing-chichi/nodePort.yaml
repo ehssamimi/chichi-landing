@@ -8,7 +8,7 @@ spec:
   ports:
     - port: 80
       targetPort: 3800
-      nodePort: 38030
+      nodePort: 32030
       protocol: TCP
       name: chichilanding
   type: NodePort
