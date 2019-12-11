@@ -8,8 +8,8 @@ import SIgnUpPage from "./Components/SignUp/SIgnUpPage";
 function App() {
   return (
     <div className="App">
-   {/*<Landing/>*/}
-   <SIgnUpPage/>
+   <Landing/>
+   {/*<SIgnUpPage/>*/}
 
     </div>
   );
