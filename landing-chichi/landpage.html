@@ -4,6 +4,7 @@
     <meta charset="UTF-8"/>
 <!--    **************************************** resolo *****************************************-->
     <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+<!--    <meta name="viewport" content="width=device-width, initial-scale=1.0">-->
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="HandheldFriendly" content="true">
     <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css"/>
@@ -41,13 +42,13 @@
                             style="height: 10vh">
                             <li class="nav-item active ">
                                 <a class="  d-none d-lg-block d-xl-block fs-md-menu c-menu  font-medium headerLink"
-                                   style="" href="#">ثبت نام</a>
+                                   style="" href="#sing-up">ثبت نام</a>
                             </li>
                             <li class="nav-item active ">
-                                <a class="  fs-content c-menu  font-medium headerLink" href="#">درباره ما</a>
+                                <a class="  fs-md-menu c-menu  font-medium headerLink" href="#">درباره ما</a>
                             </li>
                             <li class="nav-item active ">
-                                <a class="   fs-content c-menu  font-medium headerLink" href="#">خانه</a>
+                                <a class="   fs-md-menu c-menu  font-medium headerLink" href="#">خانه</a>
                             </li>
                             <li class="nav-item active ">
                                 <a class="  d-none d-lg-block d-xl-block fs-md-menu c-menu2  font-medium mr-0 pl-0"
@@ -76,32 +77,37 @@
             </div>
             <div class="p-0 col-md-4 col-sm-12    mt-md-8-sm-4  d-flex flex-column justify-content-between h-sm-md">
                     <div class="font-bold  text-center text-md-left text-sm-center w-100">
-                        <span class="fs-title-content align-response m-response1 w-100  c-menu3   ">چی چی ؟</span>
+                        <span class="fs-title-content  m-response1 w-100  c-menu3   ">چی چی ؟</span>
                     </div>
 
-                    <div class="font-bold  text-center text-md-left text-sm-center w-100">
-                        <span class=" fs-subtitle-content align-response m-response1 w-100 ">اولین سوپر مارکت انلاین ساری</span>
+                    <div class="font-bold  text-center text-md-left text-sm-center w-100 mt-between-chichi">
+                        <span class=" fs-subtitle-content  m-response1 w-100 ">اولین سوپر مارکت انلاین ساری</span>
                     </div>
 
                     <div class=" d-flex flex-column justify-content-center justify-text w-100">
-                        <div class=" w-100 mt-3 m-response1">
+                        <div class=" w-100 mt-between-chichi m-response1">
                             <div class="justify-text col-8  col-md-12  m-auto   p-0">
                                 <span class="fs-content  c-text font-light  w-100  "> زودتر از بقیه از یک اتفاق خوب توی شهرتون خبر دار شوید. اولین سوپر مارکت آنلاین ساری به زودی آماده ی ارائه خدمات به شما خواهد بود.  پس با ثبت نام زود هنگام از تخفیف های هیجان انگیز ما با خبر شوید.</span>
                             </div>
                         </div>
                     </div>
-
-                    <div class="bottom-center mt-bottom w-100">
-                        <button type="button"  class="btn btn-outline-primary fs-bt b-radius width-bt font-light m-response1 ">همین الان ثبت نام کنید</button>
+                <div class="m-response1">
+                    <div class="d-flex justify-content-responsive justify-content-center mt-bottom w-100">
+                        <div class="button width-bt height-bt">
+                            <a  href="#sing-up" class="w-100">
+                                <div class="text font-medium w-100 fs-bt " style="cursor: pointer">همین حالا ثبت نام کنید</div>
+                            </a>
+                        </div>
                     </div>
+                </div>
             </div>
         </div>
     </div>
-
     <!--    /******************************************* ^ 1 ^ **************************************/-->
+    <div class="col-12 flexrow1 p-0 mt-image-1">
 
-    <div class="col-12 flexrow1 p-0">
-        <div class="  d-rtl mt-5 text-center col-md-7 col-sm-12 p-0  " id="target1">
+        <div class="  d-rtl mt-5 text-center col-md-7 col-sm-12 p-0  " id="target1 ">
+            <a name="sing-up"></a>
             <span class="d-block mt-response2 mb-auto fs-title-content font-bold">همین حالا ثبت نام کنید !</span>
             <div class="justify-text   col-8 text-center d-block ml-auto mr-auto p-0 mt-3">
                 <span class="fs-content  c-text font-light"> همین حالا می توانید با وارد کردن نام و شماره تماس باشید که تخفیف های هیجان انگیز ما رو  دریافت میکنید و  با اپلیکیشن چی چی با خیال راحت خرید هاتون رو درب منزل تحویل میگیرید</span>
@@ -109,29 +115,56 @@
                 </div>
             </div>
             <div style="height: 1vh ">
-                <div class="height-tbt">
+                <div  class="font-bold fs-massage mt-5 c-success " id="success-ms" style="display:none">
+                <span  >ثبت نام شما با موفقیت انجام شد</span>
+                </div>
+                <div id="creat-hidden">
+                <div class="height-tbt"  >
                     <div class="position-absolute col-12">
-                        <span id="loading" class="load fs-15vw font-bold" style="display:none ; width: 20px;"> <img src="pic/load.svg"> </span>
+                        <span id="loading1" class="load fs-15vw font-bold" style="display:none ; width: 20px;"> <img src="pic/load.svg"> </span>
                         <span id="import" class="font-bold fs-massage" style="display:none ; color: #5d6e5f">کد ارسال شده را وارد کنید</span><br>
-                        <input type="text" id="code" maxlength="4" placeholder="کد فعال سازی" class="txt-b mt-text3 fs-txt-holder height-txt col-8 font-ultralight" style="display:none ">
+
+                        <input type="number" id="code" max="4"  placeholder="کد فعال سازی"  class="txt-b mt-text3 fs-txt-holder height-txt col-8 font-ultralight" style="display:none ">
+                        <small id="error-code-sing-in-recivide" class="font-medium form-text col-md-9 col-sm-8 offset-2 fs-text-error text-left c-error" ></small>
                     </div>
                     <input type="number" id="person-number" placeholder="شماره همراه" class="txt-b fs-txt-holder  height-txt col-8 font-light">
-                    <!--************************ error-code1 **********************-->
-                    <small id="error-code1" class="font-medium form-text col-md-9 col-sm-8 offset-2 fs-text-error text-left" style="color:red"></small>
+                    <!--************************ error-code-sing-in-1 **********************-->
+                    <small id="error-code-sing-in1" class="font-medium form-text col-md-9 col-sm-8 offset-2 fs-text-error text-left mt-auto mb-auto height-error-mas c-error"  ></small>
 
-                    <input type="text" id="person-family" placeholder="نام و نام خانوادگی" class="txt-b fs-txt-holder mt-text3 height-txt col-8 font-light">
-                    <!--************************ error-code2 **********************-->
-                    <small id="error-code2" class="font-medium form-text col-md-9 col-sm-8 offset-2 fs-text-error text-left" style="color:red"></small>
+                    <input type="text" id="person-name"  placeholder="نام" class="txt-b fs-txt-holder  height-txt col-8 font-light">
+                    <!--************************ error-code-sing-in-2 **********************-->
+                    <small id="error-code-sing-in2" class="font-medium form-text col-md-9 col-sm-8 offset-2 fs-text-error text-left mt-auto mb-auto height-error-mas c-error"  ></small>
+
+                    <input type="text" id="person-family"  placeholder="نام خانوادگی" class="txt-b fs-txt-holder  height-txt col-8 font-light">
+                    <!--************************ error-code-sing-in-2 **********************-->
+                    <small id="error-code-sing-in3" class="font-medium form-text col-md-9 col-sm-8 offset-2 fs-text-error text-left c-error" ></small>
+                 </div>
+
+
+                    <!--margin-top bt-->
+                    <div class="mt-bt" id="mt-bt">
+                    </div>
+                    <div class="d-flex justify-content-center justify-content-center mt-bottom w-100  " >
+                        <div class="button width-bt height-bt" >
+                            <a class="w-100" style="cursor: pointer" >
+                                <div class="text font-medium w-100 fs-bt " id="tab-sing-up">ثبت نامم کن </div>
+                            </a>
+                        </div>
+                    </div>
+
+
+
                 </div>
-                <button type="button" class="btn btn-outline-primary mt-bt fs-bt b-radius font-light width-bt"
-                        id="fade-in-out">ثبت نامم کن !
-                </button>
+
                 <div class="mt-invite">
+                    <a href="#invite-friend">
                     <span class=" fs-invite c-text2  font-light br-bottom">دوستانتان را دعوت کنید</span>
+                    </a>
                 </div>
             </div>
-<!--            div for responsive-->
-            <div class="div-height"></div>
+
+<!--            div for responsive           -->
+            <div class="div-height"> </div>
         </div>
         <div class=" col-md-5 col-sm-12 mt-image-1 p-0">
             <img src="pic/Group%20357.png" alt="چی چی" style="width: 100% ; height:auto ">
@@ -145,35 +178,55 @@
         </div>
 
         <div class="ct-3-r col-md-6 col-sm-12 text-center  p-0" style="width: 100% ;  height: auto">
-            <div class="m-response2">
-                <div class="col-12 text-md-left text-sm-center    mt-response3">
-
+            <div class="m-response2 text-center">
+                <div class="col-12 text-md-left text-sm-center mt-response3">
+                    <a name="invite-friend"></a>
                     <span class="d-block mb-auto fs-title-content font-bold">یه هفته ارسال رایگان چطوره؟</span><br>
-
-                    <div class="  offset-2 ml-0">
-
-                        <div class="justify-text   col-8 col-md-12 m-auto p-0">
-                            <span class="fs-content  c-text font-light">  با دعوت از 2 دوستتان و ثبت نام آن ها و پس از اولین خرید آنها به راحتی خرید های یک ماه آینده خود را بدون هذینه ارسال دریافت کنید </span>
+                    <div class="offset-2 ml-0">
+                        <div class="justify-text   col-10 col-md-11 m-r-l-auto p-0">
+                            <span class="fs-content  c-text font-light ">  با دعوت از 2 دوستتان و ثبت نام آن ها و پس از اولین خرید آنها به راحتی خرید های یک ماه آینده خود را بدون هزینه ارسال دریافت کنید </span>
                         </div>
-                        <br>
-                        <div class="d-rtl mt-response-sub-1-3">
-                            <input type="number" placeholder="شماره همراه شما" class="txt-b fs-txt-holder height-txt col-8 font-light">
-                            <input type="text" placeholder="نام نام خانوادگی دوستتان" class="txt-b fs-txt-holder mt-text3 height-txt col-8 font-light">
-                            <input type="number" placeholder="شماره همراه دوستتان" class="txt-b fs-txt-holder mt-text3 height-txt col-8 font-light">
-                            <br>
-                            <button type="button"
-                                    class=" btn btn-outline-primary text-center width-bt fs-bt b-radius mt-bottom font-light ">
-                                <span class=" text-center "> خبرش کن!</span>
-                            </button>
+                        <div class="d-rtl" >
+                            <div class=" col-12 text-center   width-bot" >
+                                <span id="success-massage" class="font-bold fs-massage width-txt"  style="display:none ; color: #5d6e5f">دعوت شما ارسال شد</span><br>
+                            </div>
+
+                            <input type="number" id="your-num" placeholder="شماره همراه شما" class="txt-b fs-txt-holder height-txt width-txt  font-light"/>
+                            <div class="col-12 d-flex  justify-content-error-ms">
+                            <small id="error-code-sing-up4" class="font-medium form-text width-txt   fs-text-error text-left mb-auto mt-auto height-error-mas c-error" ></small>
+                            </div>
+
+                            <input type="text" id="name-friend" placeholder="نام دوستتان" class="txt-b fs-txt-holder  height-txt width-txt font-light">
+                            <div class="col-12 d-flex justify-content-error-ms ">
+                            <small id="error-code-sing-up2" class="font-medium form-text width-txt   fs-text-error text-left mb-auto mt-auto height-error-mas c-error" ></small>
+                            </div>
+                            <input type="text" id="familly-friend" placeholder="نام خانوادگی دوستتان" class="txt-b fs-txt-holder  height-txt width-txt font-light">
+                            <div class="col-12 d-flex justify-content-error-ms ">
+                            <small id="error-code-sing-up3" class="font-medium form-text width-txt   fs-text-error text-left mb-auto mt-auto height-error-mas c-error" ></small>
+                            </div>
+
+                            <input type="number" id="num-friend" placeholder="شماره همراه دوستتان" class="txt-b fs-txt-holder  height-txt width-txt font-light"/>
+                            <div class="col-12 d-flex justify-content-error-ms ">
+                                <small id="error-code-sing-up1" class="font-medium form-text width-txt fs-text-error text-left mb-auto mt-auto height-error-mas c-error"  ></small>
+                            </div>
+                            <small id="massage-invite" class="font-medium form-text width-txt fs-text-error text-left mb-auto mt-auto height-error-mas "  ></small>
+
+                            <div class="d-flex justify-content-center   mt-bottom  width-bot " id="btn-sing-up">
+                                <div class="button width-bt height-bt" id="btn-hidden-2"  >
+                                    <a class="w-100" id="tab-send-massage">
+                                        <div class="text font-medium w-100 fs-bt " style="cursor: pointer">خبرش کن</div>
+                                    </a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
+         </div>
+
     </div>
 
     <!--    /*****************************************  footer  ************************************/-->
-
 
     <div class="footer bg-image-footer  footer-height col-12 d-rtl flexrow-footer overflow-hidden pl-0 pr-0" >
         <!--        *******chi chi?******-->
@@ -204,7 +257,7 @@
                 <div class="d-flex w-100 justify-content-center   ">
                     <span class="fs-social font-medium  c-social ">مارا در شبکه های مجازی دنبال کنید</span>
                 </div>
-                <div class="d-flex flexrow-footer w-100 mt-3      ">
+                <div class="d-flex flexrow-footer w-100 mt-3">
                     <div class="col-3 d-flex justify-content-center p-0">
                         <img src="pic/aparat_icon.svg" alt="آپارات">
                     </div>
@@ -221,7 +274,7 @@
             </div>
         </div>
         <div class="col-sm-12 col-md-3  ml-auto height-Footer_UL d-flex align-items-center justify-content-center mt-social-belief mb-belief">
-            <div class=" w-50-sm d-flex justify-content-center">
+            <div class=" w-50-sm d-flex justify-content-center   ">
                 <img src="pic/Subtraction 1.svg" alt="نماد اعتماد">
             </div>
             <div class="w-50-sm d-flex justify-content-center">
@@ -240,21 +293,19 @@
 </div>
 
 <script src="https://kit.fontawesome.com/f1568f7e5a.js" crossorigin="anonymous"></script>
-<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="./javascript/jquery-3.4.1.slim.min.js"  ></script>
+<script src="./javascript/popper.min.js"  ></script>
+<script src="./javascript/bootstrap.min.js" ></script>
+<script src="./javascript/jquery.min.js"></script>
 
 <script>
     $(document).ready(function () {
         function disableScroll() {
             $("#navbar").addClass("bg-white");
-
             $("#absoluteDiv").removeClass("d-none").fadeIn(300);
             // Get the current page scroll position
             scrollTop = window.pageYOffset || document.documentElement.scrollTop;
             scrollLeft = window.pageXOffset || document.documentElement.scrollLeft,
-
                 // if any scroll is attempted, set this to the previous value
                 window.onscroll = function() {
                     window.scrollTo(scrollLeft, scrollTop);
@@ -267,156 +318,432 @@
                 $("#absoluteDiv").addClass("d-none");
             }, 300);
 
-
             window.onscroll = function() {};
         }
-
-        //
-        // $("#fade-in-out").click(function () {
-        //     $("#person-number").fadeOut(300);
-        //     $("#person-family").fadeOut(300);
-        // });
-        //
-        // $("#fade-in-out").click(function () {
-        //     $("#loading").hasClass("first") ? "" : $(".load").fadeIn(300).fadeOut(20).addClass("first");
-        // });
-        //
-        // $("#fade-in-out").click(function () {
-        //     $("#import").fadeIn(3000);
-        //     $("#code").fadeIn(3500);
-        // });
-
-
-        // $("#navbarSupportedContent").hasClass("show") ?
-        //     $("#navbar").addClass("bg-white") :   setTimeout(function() {
-        //         $("#navbar").removeClass("bg-white")
-        //     }, 250);
         $("#btn-nav").click(function (e) {
             $(".navbarSupportedContent").hasClass("show") ?
-                // ("#navbar").addClass("bg-white") : setTimeout(function () {
-                //     $("#navbar").removeClass("bg-white")
-                // }, 250);
                 setTimeout(function () {
                     enableScroll()
                 }, 250): disableScroll();
-            // $("#navbar").addClass("bg-white");
         });
-        // g_strFieldData = g_strFieldlst.options[ g_strFieldlst.selectedIndex ].value
+// *****************************************************************************************************************  start 1
 
-
-// *****************************************************************************************************************  start
         var firstStep = true;
-        $("#fade-in-out").click(function () {
-            $("#error-code1").addClass('d-none')
-            $("#error-code2").addClass('d-none')
-            if (firstStep) {
-                // $('#error-code').text('error 404');
-                let person_num = document.getElementById("person-number").value;
-                let person_family = document.getElementById("person-family").value;
-                let validate = false;
-                validate1=false;
-                validate2=false;
-                // console.log('person_num: ' + person_num)
 
-                person_num.length === 11   ? validate1 = true : validate1 = false;
-                person_family.toString().length > 4 ? validate2 = true : validate2 = false;
-                if (validate1&&validate2){
-                    validate=true
-                }else {
-                    if (validate1===false && validate2===false){
-                        // $("#error-code").removeClass('d-none').text("your number and family not validate");
-                        $("#error-code2").removeClass('d-none').text("نام شما اشتباه وارد شد");
-                        $("#error-code1").removeClass('d-none').text("شماره همراه شما اشتباه وارد شد");
-                    }else if (validate1===false){
-                        // $("#error-code").removeClass('d-none').text("your number not validate");
-                        $("#error-code1").removeClass('d-none').text("شماره همراه شما اشتباه وارد شد");
-                    }else  if (validate2===false){
-                        // $("#error-code").removeClass('d-none').text("your name field not validate");
-                        $("#error-code2").removeClass('d-none').text("نام شما اشتباه وارد شد");
-                    }
+        function Validation(str,kind){
+            function isValid1(str) {
+                return !/[~`!@#$%\^&*()+=\-\[\]\\';,/{}|\\":<>1234567890\?]/g.test(str);
+            }
+            function isValid2(str) {
+                return !/[~`!@#$%\^&*()+=\-\[\]\\';,/{}|\\":<>\?]/g.test(str);
+            }
+
+            let text="";
+            if (kind==="text"){
+                if (str.length<=1){
+                    x="متن وارد شده کمتر از حد مجاز است"
+                    return x
                 }
-                if (validate) {
-                    $("#loading").hasClass("first") ? "" : $(".load").fadeIn(300).fadeOut(20).addClass("first");
-                    $("#person-number").fadeOut(300);
-                    $("#person-family").fadeOut(300);
-                    if (true) {
-                        firstStep = false;
-                        $("#import").fadeIn(3000);
-                        $("#code").fadeIn(3500);
-                    } else {
-                        $("#person-number").fadeIn(300);
-                        $("#person-family").fadeIn(300);
-                        $("#error-code1").removeClass('d-none').text("error 404");
+                if (isValid1(str)){
+                    x="";
+                    return x;
+
+                }else {
+                    x="متن وار شده مجاز نیست";
+                    return x
+
+                }
+            } else {
+                if (str.length!==11){
+                    x="شماره همراه 11 رقمی را وارد کنید";
+                    return x
+                }
+                if (isValid2(str)){
+                    x="";
+                    return x
+                }else {
+                    x="شماره همراه وارد شده مجاز نیست";
+                    return x
+                }
+            }
+        }
+
+
+        $("#tab-sing-up").click(function () {
+
+
+            $("#error-code-sing-in1").text("")
+            $("#error-code-sing-in2").text("")
+            $("#error-code-sing-in3").text("")
+            $("#error-code-sing-in-recivide").addClass('d-none')
+            let person_num = document.getElementById("person-number").value;
+            let person_name = document.getElementById("person-name").value;
+            let person_family = document.getElementById("person-family").value;
+            if (firstStep) {
+
+                let values=[person_num,person_name,person_family]
+                let Type=['number','text','text']
+                 let i=0;  var validate = true;
+                for (i; i < values.length; i++) {
+                    let x= Validation(values[i], Type[i]);
+                    if (x.length>2){
+                        validate=false
                     }
+                    $(`#error-code-sing-in${i+1}` ).text(`${x}`);
+                 };
+
+                if (validate) {
+                    $("#loading1").fadeIn(300);
+                    $("#person-number").fadeOut(300);
+                    $("#person-name").fadeOut(300);
+                    $("#person-family").fadeOut(300);
+
+                    let Data={
+                        "PhoneNumber":person_num ,
+                        "FirstName": person_name,
+                        "LastName": person_family,
+                        "AcceptedPolicy": false
+                     }
+                    console.log(Data)
+                    let datas=JSON.stringify(Data);
+                    console.log(datas)
+
+                    var settings = {
+                        "url": "http://chichiapp.ir:30032/users/signup",
+                        "method": "POST",
+                        "timeout": 0,
+
+
+                        "data": datas,
+                    };
+
+                    // console.log(settings2)
+                    console.log(settings)
+
+                    $.ajax(settings).done(function (response){
+                        let {State}= response
+                        console.log(State);
+                        if (State){
+                            $("#loading1").fadeOut(20);
+                            $("#mt-bt").fadeOut(300);
+                             firstStep = false;
+                            $("#import").fadeIn(3000);
+                            $("#code").fadeIn(3500);
+                        }else {
+                            $("#loading1").fadeOut(20);
+                            $("#person-number").fadeIn(300);
+                            $("#person-name").fadeIn(300);
+                            $("#person-family").fadeIn(300);
+                            $("#error-code-sing-in3").text("اطلاعات شما تکراری است")
+                        }
+                        // console.log(response);
+                    });
+                    console.log(firstStep);
+
+                    // var settings = {
+                    //     "url": "http://chichiapp.ir:30032/users/signup",
+                    //     "method": "POST",
+                    //     "timeout": 0,
+                    //     "headers": {
+                    //         "Content-Type": "text/plain"
+                    //     },
+                    //     "data": "{\r\n  \"PhoneNumber\":\"09112561783\" ,\r\n  \"FirstName\": \"مظاهر\",\r\n  \"LastName\": \"حبیب\",\r\n  \"AcceptedPolicy\": false\r\n}",
+                    //  };
+                    // console.log(settings)
+
+                //     var data = datas
+                //
+                // var xhr = new XMLHttpRequest();
+                // xhr.withCredentials = true;
+                //
+                // xhr.addEventListener("readystatechange", function() {
+                //     if(this.readyState === 4) {
+                //         console.log(this.responseText);
+                //     }
+                // });
+                //
+                // xhr.open("POST", "http://192.168.1.78:3002/users/signup");
+                // xhr.setRequestHeader("Content-Type", "text/plain");
+                //
+                // xhr.send(data);
+
+
+                    //
+                    // var settings2 = {
+                    //     "url": "http://192.168.1.78:3002/users/signup",
+                    //     "method": "POST",
+                    //     "timeout": 0,
+                    //     "headers": {
+                    //         "Content-Type": "application/json"
+                    //     },
+                    //     "data": data,
+                    // };
+                    // console.log(settings2)
+                    //
+                    // $.ajax(settings).done(function (response) {
+                    //     console.log(response);
+                    // });
+                    //
+
+
+                    //
+                    // $.ajax(settings).done(function (response) {
+                    //     console.log(response);
+                    // }).fail(function (response) {
+                    //     console.log(response)
+                    //     // console.log(response.responseText);
+                    //     return JSON.parse(response)
+                    // });
+
+
+
+
+
+                    // $("#loading1").hasClass("first") ? "" : $(".load").fadeIn(300).fadeOut(20).addClass("first");
+                    // $("#person-number").fadeOut(300);
+                    // $("#person-name").fadeOut(300);
+                    // $("#person-family").fadeOut(300);
+
+                    // $("#mt-bt").fadeOut(300);
+                    //
+                    //      firstStep = false;
+                    //     $("#import").fadeIn(3000);
+                    // $("#code").fadeIn(3500);
+
+
+                     // else{
+                    //     $("#person-number").fadeIn(300);
+                    //     $("#person-name").fadeIn(300);
+                    //     $("#person-family").fadeIn(300);
+                    // }
+                }
+
+            }
+            else {
+
+
+                console.log("step2")
+                var validationCode="";
+                let code = document.getElementById("code").value;
+
+
+                var settings = {
+                    "url": `http://chichiapp.ir:30032/users/phonenumber/verification/${person_num}/${code}`,
+                    "method": "GET",
+                    "timeout": 0,
+                };
+
+                $.ajax(settings).done(function (response) {
+                    console.log(response);
+                });
+
+
+                var number=person_num;
+                var form = new FormData();
+                form.append("PhoneNumber" , number);
+                var settings = {
+                    "async": true,
+                    "crossDomain": true,
+                    "url": "http://chichiapp.ir:30032/users/get/code",
+                    "method": "POST",
+                    "headers": {
+                        "Id": "5d87e194549ae0267b5268cc",
+                        "Token": "6109bfa925d615dc888c94d1ba858bad960f3dcb95a69453bd6dd1ba8acc4c49",
+                    },
+                    "processData": false,
+                    "contentType": false,
+                    "mimeType": "multipart/form-data",
+                    "data": form
+                };
+                var data= $.ajax(settings).done(function (response) {
+
+                    // console.log(response);
+
+                    var {Description}=JSON.parse(response);
+                    // console.log(Description);
+                    // console.log($("#code").val());
+                    // console.log( $("#code").val() === Description.toString());
+                    validationCode=Description.toString()
+
+                    if ( $("#code").val() === Description.toString()){
+                        // alert("ok");//
+                        $("#creat-hidden").fadeOut(200);
+                        $("#success-ms").fadeIn(300);
+                    }
+                    else
+                    {
+                        function isValid2(str) {
+                            return !/[~`!@#$%\^&*()+=\-\[\]\\';,/{}|\\":<>\?]/g.test(str);
+                        }
+                        validate5 = isValid2( $("#code").val().toString());
+                        // console.log($("#code").val());
+                        // console.log(validate5);
+
+                        $("#tab-sing-up").click(function () {
+
+                            if ($("#code").val().length === 4){
+                                console.log("character")
+
+                                if(validate5 ){
+                                }
+                                else{
+                                    $("#error-code-sing-in-recivide").removeClass('d-none').text("کد را اشتباه وارد کردید");
+                                }
+                            }else {
+
+                                $("#error-code-sing-in-recivide").removeClass('d-none').text("کد را اشتباه وارد کردید");
+
+                            }
+
+                        })
+
+                        $("#error-code-sing-in-recivide").removeClass('d-none').text("کد را اشتباه وارد کردید");
+
+                    }
+                    // return  Description ;
+                })
+                    .fail(function (response) {
+                        // console.log(response.responseText);
+                        return JSON.parse(response)
+                    });
+                // console.log(data);
+                // *********sendCode********
+            }
+        });
+    // *****************************************************************************************************************  end 1
+
+    // *****************************************************************************************************************  start 2
+        var twoStep = true;
+        $("#tab-send-massage").click(function () {
+            $("#error-code-sing-up1").text("")
+            $("#error-code-sing-up2").text("")
+            $("#error-code-sing-up3").text("")
+            $("#error-code-sing-up4") .text("")
+            $("#massage-invite") .text("")
+
+                // $('#error-code').text('error 404');
+                let num_friend = document.getElementById("num-friend").value;
+                let name_friend = document.getElementById("name-friend").value;
+                let familly_friend = document.getElementById("familly-friend").value;
+                let num_you = document.getElementById("your-num").value;
+
+            let values=[num_friend,name_friend,familly_friend,num_you]
+            let Type=['number','text','text','number']
+            let i=0;  var validate = true;
+            for (i; i < values.length; i++) {
+                let x= Validation(values[i], Type[i]);
+                // console.log(x)
+                if (x.length>2){
+                    validate=false
+                }
+                $(`#error-code-sing-up${i+1}` ).text(`${x}`);
+            };
+                // validate_1=false;
+                // validate_2=false;
+                // validate_3=false;
+                // validate_4=false;//#familly-friend
+                //
+                //
+                //
+                // <!--                            your-num       error-code-sing-up1-->
+                // <!--                            name-friend       error-code-sing-up2-->
+                // <!--                            familly-friend       error-code-sing-up3-->
+                // <!--                            num-friend      error-code-sing-up4-->
+                //
+                // num_you.length === 11   ? validate_1 = true : validate_1 = false;
+                // name_friend.toString().length > 4 ? validate_2 = true : validate_2 = false;
+                // familly_friend.toString().length > 4 ? validate_4 = true : validate_4 = false;
+                // num_friend.length === 11   ? validate_3 = true : validate_3 = false;
+                // console.log(validate_1 , validate_2 , validate_3);
+                //
+                // if (validate_1===false){
+                //     // $("#error-code").removeClass('d-none').text("your name field not validate");
+                //     $("#error-code-sing-up1").removeClass('d-none').text("شماره همراه شما اشتباه وارد شد");
+                // }
+                // if (validate_2===false){
+                //     // $("#error-code").removeClass('d-none').text("your name field not validate");
+                //     $("#error-code-sing-up2").removeClass('d-none').text("نام دوستتان اشتباه وارد شد");
+                // }
+                // if (validate_3 === false){
+                //     // $("#error-code").removeClass('d-none').text("your name field not validate");
+                //     $("#error-code-sing-up4").removeClass('d-none').text("شماره همراه دوستتان اشتباه وارد شد");
+                // }
+                // if (validate_4 === false){
+                //     // $("#error-code").removeClass('d-none').text("your name field not validate");
+                //     $("#error-code-sing-up3").removeClass('d-none').text("نام و نام خانوادگی دوستتان اشتباه وارد شد");
+                // }
+                //
+                // if (validate_1 && validate_2 && validate_3) {
+                //     validate_=true
+                // }else {
+                //     validate_=false
+                // }
+            // num_friend  name_friend  familly_friend  num_you
+
+
+            // "url": `http://chichiapp.ir:30032/users/phonenumber/verification/${person_num}/${code}`,
+
+            if (validate) {
+
+                var settings = {
+                    "url": `http://chichiapp.ir:30032/website/invite?inviter=${num_you}&invited=${num_friend}&invited_name=${name_friend}&invited_lname=${familly_friend}`,
+                    "method": "GET",
+                    "timeout": 0,
+                };
+
+                $.ajax(settings).done(function (response) {
+                    console.log(response);
+
+
+
+
+                    console.log("D : "+ response );
+                    console.log( response==="d");
+                    // name-friend  familly-friend  your-num
+                    if (response === "d"){
+                        console.log("condition")
+                        // num_you.value="";
+                        document.getElementById("your-num").value="";
+                        document.getElementById("num-friend").value="";
+                        document.getElementById("familly-friend").value="";
+                        document.getElementById("name-friend").value="";
+                        // num_friend.value="";
+                        // familly_friend.value="";
+                        // name_friend.value="";
+                        $("#massage-invite").addClass("c-success").text("ثبت با موفقیت انجام شد")
+                        setTimeout(function(){
+                            $("#massage-invite").text("");
+                        }, 3000);
+
+                    }else {
+                        $("#massage-invite").addClass("c-error").text("ثبت شما با موفقیت انجام نشد")
+                        setTimeout(function(){
+                            $("#massage-invite").text("");
+                        }, 3000);
+                    }
+
+                    // console.log(invitaion);
+                });
+                // if (true) {
+                //         twoStep = false;
+                //     } else {
+                //         $("#num_friend").fadeIn(300);
+                //         $("#name-friend").fadeIn(300);
+                //         $("#familly-friend").fadeIn(300);
+                //         $("#familly_friend").fadeIn(300);
+                //         $("#your-num").fadeIn(300);
+                //     }
                 } else {
                     // $("#error-code").removeClass('d-none').text("your number or family not validate");
                 }
-            } else {
-                // *********sendCode********
-                // $("#error-code").removeClass('d-none').text("your code not validate");
-            }
-        });
 
+        });
     });
 
-// ******************************************************************************************************************  end
-
-
-
-
-
-        // let Sent_code = document.getElementById("code").value;
-        // console.log('Sent_code:  '+Sent_code);
-
-
-
-    // var person_num = document.getElementById("#person-number").value;
-    //     var person_family = document.getElementById("#person-family").value;
-    //     var Sent_code = document.getElementById("#code").value;
-    //
-    //     var am = Sent_code + person_family + person_num ;
-    //     alert("am");
-        // var form = new FormData();
-        // form.append("file ", person_num);
-        // form.append("PermissionLevel ", "");
-        //
-        // var settings = {
-        //     "async": true,
-        //     "crossDomain": true,
-        //     "url": "http://chichiapp.ir:3005/upload/data-form/",
-        //     "method": "POST",
-        //     "headers": {
-        //         "Id": "5d87e194549ae0267b5268cc",
-        //         "Token": "6109bfa925d615dc888c94d1ba858bad960f3dcb95a69453bd6dd1ba8acc4c49",
-        //         "Content-Type": "application/x-www-form-urlencoded",
-        //
-
-        //     },
-        //     "processData": false,
-        //     "contentType": false,
-        //     "mimeType": "multipart/form-data",
-        //     "data": form
-        // }
-        //
-        // $.ajax(settings).done(function (response) {
-        //     console.log(response);
-        // });
-
-
-
-
-
-    //
-    // function openNav() {
-    //     document.getElementById("mySidenav").style.width = "100%";
-    // }
-    //
-    // function closeNav() {
-    //     document.getElementById("mySidenav").style.width = "0";
-    // }
-    // slider
+// ******************************************************************************************************************  end 2
 </script>
-
 </body>
+
+
 
 </html>

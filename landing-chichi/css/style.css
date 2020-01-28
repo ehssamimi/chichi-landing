@@ -1,7 +1,51 @@
 html {
     scroll-behavior: smooth;
 }
-/*******************************************font-size**************************************/
+/*for disable color & background-color bootstrap */
+.btn:focus,.btn:active {
+    outline: none !important;
+    box-shadow: none!important;
+}
+.btn-outline-primary:hover
+{
+    background-color: white!important;
+    color: #007bff!important;
+}
+
+/*                 animate button                */
+.button {
+    border: 2px solid #0d92fd;
+    border-radius: 15vw;
+    height: 6vh;
+    text-align: center;
+    display: flex  ;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to left,  #058ffc 50%, white 50%);
+    background-size: 200% 100%;
+    background-position: left bottom;
+    transition: all 0.5s ease-out;
+}
+.button:hover {
+    background-position: right bottom;
+}
+.text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    text-align: center;
+    font-size: 16px;
+    line-height: 30px;
+    color:  #058ffc;
+    transition: all .6s ease-out;
+
+}
+.text:hover {
+    color: white;
+}
+
+/*!*******************************************font-size**************************************!*/
 .fs-08vw{
     font-size: 0.8vw;
 }
@@ -107,6 +151,13 @@ ul{
     margin-top: 40% !important;
 }
 
+/******************************************* height **************************************/
+.height-error-mas
+{
+
+    height: 2vh;
+}
+
 /******************************************* color **************************************/
 
 .c-menu {
@@ -137,6 +188,14 @@ ul{
 .c-social {
     color: #5b747f;
 }
+.c-error
+{
+    color: red;
+}
+.c-success
+{
+color:#60D199;
+}
 /*********************************** background_color ***********************************/
 
 .bg-after-footer
@@ -151,6 +210,9 @@ ul{
 }
 
 /******************************************* placeholder , text box **************************************/
+textarea:focus, input:focus{
+    outline: none;
+}
 
 ::placeholder {
     color: #929393;
@@ -164,10 +226,15 @@ ul{
 ::-ms-input-placeholder { /* Microsoft Edge */
     color: #929393;
 }
+input
 
+{
+    padding-left: 0!important;
+}
 .txt-b {
     border: white solid;
     border-radius: 5px;
+    padding-right: 1rem;
     background-color: #f9fcfd;
 }
 
@@ -232,6 +299,7 @@ input[type=number] {
 
 .b-radius {
     border-radius: 15vw;
+
 }
 .br-bottom
  {
@@ -300,6 +368,15 @@ border-bottom: #058ffc solid 1px ;
         align-content: stretch;
     }
     /*-------------------- margin  --------------------*/
+    .mt-free-send
+    {
+        margin-top:3rem!important;
+    }
+    .m-r-l-auto
+    {
+        margin-left: auto;
+        margin-right: 0;
+    }
     .m-response1 {
         margin-right: 18% !important;
         /*margin-right: 10% !important;*/
@@ -316,16 +393,16 @@ border-bottom: #058ffc solid 1px ;
         /*margin-right: 10% !important;*/
     }
     .mt-response2 {
-        margin-top: 29%;
+        margin-top: 20%;
     }
 
     .mt-response3 {
-        margin-top: 35%;
+        margin-top: 30%;
     }
 
 
     .mt-image-1 {
-        margin-top: 0;
+        margin-top: 0!important;
     }
     .text-content-chichi {
         margin-right: 0 ;
@@ -343,30 +420,45 @@ border-bottom: #058ffc solid 1px ;
     }
     /*--------------------  text box- -----------------*/
     .height-txt {
-        height: 7vh;
+        height: 8vh;
+    }
+    .width-txt {
+        width: 85%;
+    }
+    .width-bot {
+        width: 85%;
     }
 
     .mt-text3 {
         margin-top: 2vh;
     }
 
+    .mt-between-chichi {
+        margin-top: 2vh;
+    }
     /*----------- height text box , bt , div ----------*/
     .height-tbt {
         height: 15vh;
     }
 
+    .height-bt {
+        height: 7vh;
+    }
     /*-------- height div for responsive in (2) -------*/
     .div-height {
         height: 0;
     }
+
     /*------------------ with button -----------------*/
     .w-60
     {
         width: 60%;
     }
+
     .width-bt {
-        width: 19vw;
+        width: 18.5vw;
     }
+
     .w-60
     {
         width: 60%;
@@ -380,7 +472,7 @@ border-bottom: #058ffc solid 1px ;
     }
 
     .mt-bt {
-        margin-top: 6vh;
+        margin-top: 16vh;
     }
     /*----------- height text box , bt , div ----------*/
     .h-sm-md
@@ -540,6 +632,19 @@ border-bottom: #058ffc solid 1px ;
         padding-left: 4.6875vw!important;
     }
 
+    .justify-content-responsive {
+        -ms-flex-pack:end!important;
+        justify-content:flex-end!important
+    }
+    .justify-content-2-responsive{
+        -ms-flex-pack:end!important;
+        justify-content:flex-end!important
+    }
+    .justify-content-error-ms {
+        justify-content: end !important;
+
+    }
+
 }
 
 /*--------------------------------- max media ---------------------------------*/
@@ -589,6 +694,18 @@ border-bottom: #058ffc solid 1px ;
         flex-wrap: wrap;
     }
     /*-------------------- margin  --------------------*/
+    .mt-image-1 {
+        margin-top: 2rem;
+    }
+    .mt-free-send
+    {
+        margin-top:3rem!important;
+    }
+    .m-r-l-auto
+    {
+        margin-left: auto;
+        margin-right: 0;
+    }
     .m-response1 {
         margin-right:0!important;
     }
@@ -619,23 +736,30 @@ border-bottom: #058ffc solid 1px ;
         margin-left: auto;
         margin-right: auto;
     }
-    .mt-image-1 {
-        margin-top: 8vh;
-    }
+
     .bottom-center
     {
         text-align: center!important;
     }
     .mt-bottom
     {
-        margin-top:2vh;
+        margin-top:1vh;
     }
     .mt-response-sub-1-3 {
         margin-top: 2vh;
     }
+    .mt-between-chichi {
+        margin-top: 2rem;
+    }
     /*--------------------  text box- -----------------*/
     .height-txt {
         height: 4vh;
+    }
+    .width-txt {
+        width: 37vw;
+    }
+    .width-bot {
+        width: 37vw;
     }
 
     .mt-text3 {
@@ -647,6 +771,9 @@ border-bottom: #058ffc solid 1px ;
         height: 11vh;
     }
 
+    .height-bt {
+        height: 7vh;
+    }
     /*-------- height div for responsive in (2) -------*/
     .div-height {
         height: 20vh;
@@ -657,6 +784,7 @@ border-bottom: #058ffc solid 1px ;
     .width-bt {
         width: 32vw;
     }
+
 
     .w-60
     {
@@ -766,6 +894,7 @@ border-bottom: #058ffc solid 1px ;
     {
         font-size: 2.5vw;
     }
+
     .fs-title-content {
         font-size: 4.5vw;
     }
@@ -842,6 +971,16 @@ border-bottom: #058ffc solid 1px ;
         padding-right: 0.78125vw!important;
         padding-left: 0.78125vw!important;
     }
+    .justify-content-responsive {
+
+    }
+    .justify-content-2-responsive{
+
+    }
+    .justify-content-error-ms {
+        justify-content: center !important;
+
+    }
 }
 /*********************************  media resolution (1024 , 1366) for-ipa-d-pro *********************************/
 
@@ -849,10 +988,22 @@ border-bottom: #058ffc solid 1px ;
 
     /*--------------------- div ---------------------*/
     .div-bottom-content {
-        margin-top: 1rem !important
+        margin-top: 0  !important
     }
 
     /*-------------------- margin  --------------------*/
+    .mt-image-1 {
+        margin-top: 1rem;
+    }
+    .mt-free-send
+    {
+        margin-top:1.5rem!important;
+    }
+    .m-r-l-auto
+    {
+        margin-left: auto;
+        margin-right: auto;
+    }
     /*کل متن چی چی؟؟*/
     .mt-md-8-sm-4 {
         margin-top: 2rem !important;
@@ -870,7 +1021,7 @@ border-bottom: #058ffc solid 1px ;
 
     /*ثبت نامم کن !*/
     .mt-bt {
-        margin-top: 6vh !important;
+        margin-top: 11vh !important;
     }
 
     /*دوستانتان را دعوت کنید*/
@@ -890,10 +1041,23 @@ border-bottom: #058ffc solid 1px ;
     .mt-response-sub-1-3 {
         margin-top: 0;
     }
+    .mt-between-chichi {
+        margin-top: 0.8rem;
+    }
+    .mt-bottom
+    {
+        margin-top:2vh;
+    }
     /*-------------------- width  --------------------*/
 
     .width-bt {
         width: 33vw;
+    }
+    .width-txt {
+        width: 80%;
+    }
+    .width-bot {
+        width: 100%;
     }
 
     /*-------------------- height  --------------------*/
@@ -903,7 +1067,9 @@ border-bottom: #058ffc solid 1px ;
     .height-txt {
         height: 5vh !important;
     }
-
+     .height-bt {
+        height: 5vh;
+    }
     /*گل دیو ثبت نام*/
     .height-tbt {
         height: 11vh;
@@ -911,7 +1077,7 @@ border-bottom: #058ffc solid 1px ;
 
     /*fake div*/
     .div-height {
-        height: 25vh !important;
+        height: 29vh !important;
     }
 
     /*height sm md i-pad-pro chichi*/
@@ -924,14 +1090,24 @@ border-bottom: #058ffc solid 1px ;
     {
         height: 100vh !important;
     }
+
     /*-------------------- fontsize  --------------------*/
     .fs-text-error
     {
         font-size: 2.2vw;
     }
-
+    .fs-title-content {
+        font-size: 7.5vw;
+    }
+    .fs-md-menu
+    {
+        font-size: 3.5vw;
+    }
     .fs-txt-holder {
         font-size: 3vw!important;
+    }
+    .fs-content {
+        font-size:3vw;
     }
     .fs-bt
     {
@@ -976,6 +1152,18 @@ border-bottom: #058ffc solid 1px ;
     {
         /*padding-right: 0;*/
     }
+    .justify-content-responsive {
+        -ms-flex-pack:center!important;
+        justify-content:center!important;
+    }
+    .justify-content-2-responsive{
+        -ms-flex-pack:center!important;
+        justify-content:center!important;
+    }
+    .justify-content-error-ms {
+        justify-content: center !important;
+
+    }
 }
     @media only screen and (min-width: 1024px) and (min-height: 1366px)  {
 
@@ -985,7 +1173,18 @@ border-bottom: #058ffc solid 1px ;
         }
 
         /*-------------------- margin  --------------------*/
-
+        .mt-image-1 {
+            margin-top: 0!important;
+        }
+        .m-r-l-auto
+        {
+            margin-left: auto;
+            margin-right: 0;
+        }
+        .mt-free-send
+        {
+            margin-top:3rem!important;
+        }
         /*کل متن چی چی؟؟*/
         .mt-md-8-sm-4 {
             margin-top: 6rem !important;
@@ -1003,7 +1202,7 @@ border-bottom: #058ffc solid 1px ;
 
         /*ثبت نامم کن !*/
         .mt-bt {
-            margin-top: 2.5vh!important;
+            margin-top: 7vh!important;
         }
 
         /*دوستانتان را دعوت کنید*/
@@ -1015,7 +1214,7 @@ border-bottom: #058ffc solid 1px ;
         /*یه هفته ارسال رایگان چطوره؟*/
         .mt-response3
         {
-            margin-top: 20%!important;
+            margin-top: 10%!important;
         }
 
         .mt-social-belief
@@ -1025,11 +1224,23 @@ border-bottom: #058ffc solid 1px ;
         .mt-response-sub-1-3 {
             margin-top: 1vh;
         }
-
+        .mt-between-chichi {
+            margin-top:  1vh;
+        }
+        .mt-bottom
+        {
+            margin-top:0;
+        }
         /*-------------------- width  --------------------*/
 
         .width-bt {
             width: 20vw;
+        }
+        .width-txt {
+            width: 37vw;
+        }
+        .width-bot {
+            width: 37vw;
         }
 
         /*-------------------- height  --------------------*/
@@ -1038,7 +1249,9 @@ border-bottom: #058ffc solid 1px ;
         .height-txt {
             height: 4vh !important;
         }
-
+        .height-bt {
+            height: 3.5vh;
+        }
         /*گل دیو ثبت نام*/
         .height-tbt {
             height: 11vh;
@@ -1046,7 +1259,7 @@ border-bottom: #058ffc solid 1px ;
 
         /*fake div*/
         .div-height {
-            height: 0 !important;
+            height: 23vh !important;
         }
 
         /*height sm md i-pad-pro chichi*/
@@ -1067,9 +1280,18 @@ border-bottom: #058ffc solid 1px ;
 
             font-size: 1.5vw;
         }
-
+        .fs-title-content {
+            font-size: 3.5vw;
+        }
+        .fs-content {
+            font-size:1.8vw;
+        }
         .fs-txt-holder {
             font-size: 1.8vw!important;
+        }
+        .fs-md-menu
+        {
+            font-size: 2.5vw;
         }
         .fs-bt
         {
@@ -1112,23 +1334,20 @@ border-bottom: #058ffc solid 1px ;
         {
             padding-right: 0!important;
         }
+        .justify-content-responsive {
+            -ms-flex-pack:end!important;
+            justify-content:flex-end!important
+        }
+        .justify-content-2-responsive{
+            -ms-flex-pack:end!important;
+            justify-content:flex-end!important
+        }
+        .justify-content-error-ms {
+            justify-content: end !important;
+
+        }
 }
-/************************************* End media *************************************/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
+/***************************************** End media *****************************************/
 /**/
 /**/
 /************************************* media menu slider *************************************/
