@@ -404,12 +404,12 @@
                         "LastName": person_family,
                         "AcceptedPolicy": false
                      }
-                    console.log(Data)
+                    // console.log(Data)
                     let datas=JSON.stringify(Data);
-                    console.log(datas)
+                    // console.log(datas)
 
                     var settings = {
-                        "url": "http://chichiapp.ir:30032/users/signup",
+                        "url": "https://api.chichiapp.ir/v1/userservice/users/signup",
                         "method": "POST",
                         "timeout": 0,
 
@@ -418,11 +418,11 @@
                     };
 
                     // console.log(settings2)
-                    console.log(settings)
+                    // console.log(settings)
 
                     $.ajax(settings).done(function (response){
                         let {State}= response
-                        console.log(State);
+                        // console.log(State);
                         if (State){
                             $("#loading1").fadeOut(20);
                             $("#mt-bt").fadeOut(300);
@@ -438,7 +438,7 @@
                         }
                         // console.log(response);
                     });
-                    console.log(firstStep);
+                    // console.log(firstStep);
 
                     // var settings = {
                     //     "url": "http://chichiapp.ir:30032/users/signup",
@@ -522,19 +522,19 @@
             else {
 
 
-                console.log("step2")
+                // console.log("step2")
                 var validationCode="";
                 let code = document.getElementById("code").value;
 
 
                 var settings = {
-                    "url": `http://chichiapp.ir:30032/users/phonenumber/verification/${person_num}/${code}`,
+                    "url": `https://api.chichiapp.ir/v1/userservice/users/phonenumber/verification/${person_num}/${code}`,
                     "method": "GET",
                     "timeout": 0,
                 };
 
                 $.ajax(settings).done(function (response) {
-                    console.log(response);
+                    // console.log(response);
                 });
 
 
@@ -544,7 +544,7 @@
                 var settings = {
                     "async": true,
                     "crossDomain": true,
-                    "url": "http://chichiapp.ir:30032/users/get/code",
+                    "url": "https://api.chichiapp.ir/v1/userservice/users/get/code",
                     "method": "POST",
                     "headers": {
                         "Id": "5d87e194549ae0267b5268cc",
@@ -582,7 +582,7 @@
                         $("#tab-sing-up").click(function () {
 
                             if ($("#code").val().length === 4){
-                                console.log("character")
+                                // console.log("character")
 
                                 if(validate5 ){
                                 }
@@ -686,22 +686,22 @@
             if (validate) {
 
                 var settings = {
-                    "url": `http://chichiapp.ir:30032/website/invite?inviter=${num_you}&invited=${num_friend}&invited_name=${name_friend}&invited_lname=${familly_friend}`,
+                    "url": `https://api.chichiapp.ir/v1/userservice/website/invite?inviter=${num_you}&invited=${num_friend}&invited_name=${name_friend}&invited_lname=${familly_friend}`,
                     "method": "GET",
                     "timeout": 0,
                 };
 
                 $.ajax(settings).done(function (response) {
-                    console.log(response);
-
-
-
-
-                    console.log("D : "+ response );
-                    console.log( response==="d");
+                    // console.log(response);
+                    //
+                    //
+                    //
+                    //
+                    // console.log("D : "+ response );
+                    // console.log( response==="d");
                     // name-friend  familly-friend  your-num
                     if (response === "d"){
-                        console.log("condition")
+                        // console.log("condition")
                         // num_you.value="";
                         document.getElementById("your-num").value="";
                         document.getElementById("num-friend").value="";

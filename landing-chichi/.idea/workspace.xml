@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6edfc38b-0ea9-4c48-96af-193e8311b1e5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/default.conf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/landpage.html" beforeDir="false" afterPath="$PROJECT_DIR$/landpage.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,14 +19,6 @@
         <option value="JavaScript File" />
       </list>
     </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>vh-110</find>
-      <find>vh</find>
-      <find>همین حالا ثبت نام کنید</find>
-      <find>همین حالا با وارد کردن نام و شماره تماس خود ثبت نام کنید همچنین می توانید دوستان خود را دعوت کنید .</find>
-    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -63,6 +58,21 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="sourceFilePath" value="Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Docker.Dockerfile" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -81,6 +91,7 @@
       <workItem from="1575360690117" duration="1307000" />
       <workItem from="1575436733628" duration="3474000" />
       <workItem from="1575792273698" duration="6849000" />
+      <workItem from="1580631410536" duration="902000" />
     </task>
     <servers />
   </component>
@@ -92,7 +103,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
