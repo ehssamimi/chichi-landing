@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a932091b.chunk.css",
+    "main.js": "/static/js/main.c756caf3.chunk.js",
+    "main.js.map": "/static/js/main.c756caf3.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.16a2ca73.js",
+    "runtime-main.js.map": "/static/js/runtime-main.16a2ca73.js.map",
+    "static/css/2.b0bb7f2c.chunk.css": "/static/css/2.b0bb7f2c.chunk.css",
+    "static/js/2.287ee313.chunk.js": "/static/js/2.287ee313.chunk.js",
+    "static/js/2.287ee313.chunk.js.map": "/static/js/2.287ee313.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.c35b3fd001bcde0877e557f530dfcb41.js": "/precache-manifest.c35b3fd001bcde0877e557f530dfcb41.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.b0bb7f2c.chunk.css.map": "/static/css/2.b0bb7f2c.chunk.css.map",
+    "static/css/main.a932091b.chunk.css.map": "/static/css/main.a932091b.chunk.css.map",
+    "static/media/ChichiMan.png": "/static/media/ChichiMan.962a2a6e.png",
+    "static/media/Illustration1.svg": "/static/media/Illustration1.c7bcf46d.svg",
+    "static/media/Illustration2.svg": "/static/media/Illustration2.a6120f79.svg",
+    "static/media/App.css": "/static/media/bottom.6bdb359c.png",
+    "static/media/clock-square.png": "/static/media/clock-square.f98a7dae.png",
+    "static/media/header.png": "/static/media/header.8de297f6.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.16a2ca73.js",
+    "static/css/2.b0bb7f2c.chunk.css",
+    "static/js/2.287ee313.chunk.js",
+    "static/css/main.a932091b.chunk.css",
+    "static/js/main.c756caf3.chunk.js"
+  ]
+}
