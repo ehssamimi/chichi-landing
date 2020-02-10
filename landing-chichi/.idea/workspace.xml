@@ -1,50 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6edfc38b-0ea9-4c48-96af-193e8311b1e5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/default.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/landpage.html" beforeDir="false" afterPath="$PROJECT_DIR$/landpage.html" afterDir="false" />
-    </list>
+    <list default="true" id="a36084a3-c877-4ee8-b341-0522a13b0971" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="JavaScript File" />
-      </list>
-    </option>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
   </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
-  </component>
-  <component name="MacroExpansionManager">
-    <option name="directoryName" value="jZgarEQh" />
-  </component>
-  <component name="ProjectId" id="1Ugxvc328vZo6yYf2cjlDcAv4YS" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="1XKjNY5jT33db8LYaVJaGRUAewp" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.path.for.package.eslint" value="project" />
-    <property name="node.js.path.for.package.tslint" value="project" />
-    <property name="node.js.selected.package.eslint" value="D:/Project/HandMade/Chichi/chichi-landing/landing-chichi/node_modules/eslint" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-    </key>
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -58,57 +31,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true">
-      <deployment type="dockerfile">
-        <settings>
-          <option name="sourceFilePath" value="Dockerfile" />
-        </settings>
-      </deployment>
-      <method v="2" />
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Docker.Dockerfile" />
-      </list>
-    </recent_temporary>
-  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="6edfc38b-0ea9-4c48-96af-193e8311b1e5" name="Default Changelist" comment="" />
-      <created>1572680710819</created>
+      <changelist id="a36084a3-c877-4ee8-b341-0522a13b0971" name="Default Changelist" comment="" />
+      <created>1580801640717</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1572680710819</updated>
-      <workItem from="1572680721802" duration="12981000" />
-      <workItem from="1574503170125" duration="1940000" />
-      <workItem from="1574505501305" duration="4002000" />
-      <workItem from="1574844948774" duration="1525000" />
-      <workItem from="1575275950155" duration="17879000" />
-      <workItem from="1575360690117" duration="1307000" />
-      <workItem from="1575436733628" duration="3474000" />
-      <workItem from="1575792273698" duration="6849000" />
-      <workItem from="1580631410536" duration="902000" />
+      <updated>1580801640717</updated>
+      <workItem from="1580801641951" duration="22435000" />
+      <workItem from="1580888187121" duration="23235000" />
+      <workItem from="1581142951750" duration="24375000" />
+      <workItem from="1581233633114" duration="3974000" />
+      <workItem from="1581251817387" duration="2472000" />
+      <workItem from="1581320052424" duration="10826000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
-          </value>
-        </entry>
-      </map>
-    </option>
   </component>
 </project>
