@@ -364,7 +364,7 @@ html {
 
     .bg-image-footer
     {
-        background-image:url("../pic/Path 549@2x.png")!important;
+        background-image:url("../pic/footer1.png")!important;
     }
     /*--------------------- col ---------------------*/
     .col-response {
@@ -1030,7 +1030,7 @@ padding-top: 2em;
         height: auto;
     }
     .bg-image-footer {
-        background-image: url("../pic/footer_bg.svg") !important;
+        background-image: url("../pic/footer4.svg") !important;
     }
     /*--------------------- label ---------------------*/
     label {
@@ -1358,16 +1358,7 @@ padding-top: 2em;
 
 /*!*pixel 2 xl*!*/
 @media screen and (height: 411px) and (width: 823px) and (orientation: landscape) {
-    /*html {*/
-    /*    transform: rotate(-90deg);*/
-    /*    transform-origin: left top;*/
-    /*    width: 100vh;*/
-    /*    overflow-x: scroll;*/
-    /*    overflow-y: hidden;*/
-    /*    position: absolute;*/
-    /*    top: 100%;*/
-    /*    left: 0;*/
-    /*}*/
+
 
     /*--------------------- col ---------------------*/
     .col-response {
@@ -1387,7 +1378,7 @@ padding-top: 2em;
         height: auto;
     }
     .bg-image-footer {
-        background-image: url("../pic/footer_bg.svg") !important;
+        background-image: url("../pic/footer4.svg") !important;
     }
     /*--------------------- label ---------------------*/
     label {
@@ -1600,7 +1591,7 @@ padding-top: 2em;
     }
 
     .fs-content {
-        font-size: 1.9vw!important;
+        font-size: 1.7vw!important;
     }
 
     .fs-txt-holder {
@@ -1608,7 +1599,7 @@ padding-top: 2em;
     }
 
     .fs-md-menu {
-        font-size: 1.7vw!important;
+        font-size: 2.2vw!important;
     }
 
     .fs-bt {
@@ -1632,15 +1623,15 @@ padding-top: 2em;
     }
 
     .line-h-1 {
-        line-height: 20px!important;
+        line-height: 22px!important;
     }
 
     .line-h-2 {
-        line-height: 20px!important;
+        line-height: 22px!important;
     }
 
     .line-h-3 {
-        line-height: 20px!important;
+        line-height: 22px!important;
     }
 
     .fs-li-icon {
@@ -1704,7 +1695,7 @@ padding-top: 2em;
         padding-right: 2vw!important;
     }
     .pr-x {
-        padding-right: 1.8vw !important;
+        padding-right: 5.8vw !important;
     }
 }
 
@@ -2135,7 +2126,7 @@ border-bottom: #058ffc solid 2px ;
     /*--------------------- size ---------------------*/
 
     .size-i-pad-social-belief {
-        height: 13vh;
+        height: 17vh;
         width: 7vw;
     }
 
@@ -2166,8 +2157,7 @@ border-bottom: #058ffc solid 2px ;
     /*------------------background------------------*/
     .bg-image-footer
     {
-        background-image:url("../pic/Path 549@2x.png");
-        /*background-image:url("../pic/footer2_bg.svg");*/
+        background-image:url("../pic/footer1.png");
     }
     /*------------------ flex-row  ------------------*/
     .flexrow1 {
@@ -2593,7 +2583,7 @@ border-bottom: #058ffc solid 2px ;
     /*------------------background------------------*/
     .bg-image-footer
     {
-        background-image:url("../pic/Path 549.svg");
+        background-image:url("../pic/footer3.svg");
     }
     /*------------------ flex-row  ------------------*/
     .flexrow1 {
@@ -3749,7 +3739,7 @@ border-bottom: #058ffc solid 2px ;
     }
     /*------------------  bg  -------------------*/
     .bg-image-footer {
-        background-image: url("../pic/Path 549@2x.png");
+        background-image: url("../pic/footer1.png");
 
     }
 
