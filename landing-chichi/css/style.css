@@ -1,0 +1,3850 @@
+html {
+    scroll-behavior: smooth;
+}
+
+/*overflow x y*/
+.overflow-y-hidden{
+    overflow-y: hidden;
+}
+.overflow-x-hidden{
+    overflow-x: hidden;
+}
+/*end overflow x y*/
+
+/*///////start///////*/
+
+
+
+/*!*phone*!*/
+@media screen and (min-width: 320px) and (max-width: 767px) and (orientation: landscape) {
+    /*--------------------- img ---------------------*/
+   .h-img{
+       height: auto;
+   }
+
+    .h-img-start {
+        height: auto;
+    }
+    .h-img-end {
+        height: auto;
+    }
+    /*--------------------- col ---------------------*/
+    .col-response {
+        width: 41.66% !important;
+    }
+
+    .height-menu {
+        height: 56px !important;
+    }
+
+    /*--------------------- label ---------------------*/
+    label {
+        /*order: -1;*/
+        margin-right: 9em !important;
+        /*padding-right: 40px;*/
+        transition: all 0.3s ease-in;
+        transform: translateY(20px)!important;
+        font-size: 2vw !important;
+        pointer-events: none;
+    }
+
+    input:focus + label {
+        transform: translateY(1px)!important;
+        font-size: 1.8vw!important;
+        /*    */
+    }
+
+    .focusLabel {
+        transform: translateY(1px);
+        font-size: 1.8vw!important;
+    }
+
+    /*--------------------- br ---------------------*/
+    .border-ra-text {
+        border-radius: 8px;
+    }
+
+    /*--------------------- div ---------------------*/
+    .div-bottom-content {
+        margin-top: 0 !important
+    }
+
+    .invite-friend {
+        font-size: 2.1vw;
+    }
+
+    .invite-friend:hover {
+        font-size: 2.4vw;
+        transition: 0.2s;
+    }
+
+    /*-------------------- margin  --------------------*/
+    .mt-image-1 {
+        margin-top: 1.9em!important;
+    }
+    .mt-image-2 {
+        margin-top: 1.9em!important;
+    }
+
+    .mt-free-send {
+        margin-top: 1.5em !important;
+    }
+
+    .m-r-l-auto {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /*کل متن چی چی؟؟*/
+    .mt-md-8-sm-4 {
+        margin-top: 2em !important;
+    }
+
+    /*همین حالا ثبت نام کنید !*/
+    .mt-response2 {
+        margin-top: 1em !important;
+    }
+
+    /*text box*/
+    .mt-text3 {
+        margin-top: 0.5em !important;
+    }
+
+    /*ثبت نامم کن !*/
+    .mt-bt1 {
+        margin-top: 1em;
+    }
+
+    .mt-bt {
+        margin-top: 3.4em !important;
+    }
+
+    /*دوستانتان را دعوت کنید*/
+    .mt-invite {
+        margin-top: 0.5em !important;
+    }
+
+    /*یه هفته ارسال رایگان چطوره؟*/
+    .mt-response3 {
+        margin-top: 20% !important;
+    }
+
+    .mt-social-belief {
+        margin-top: 2em !important
+    }
+
+    .mt-social-icon1 {
+        margin-top: 1em !important
+    }
+
+    .mt-social-icon2 {
+        margin-top: 3em !important;
+        margin-right: 2rem!important;
+    }
+
+    .mt-response-sub-1-3 {
+        margin-top: 0;
+    }
+
+    .mt-between-chichi {
+        margin-top: 0.8em;
+    }
+
+    .mt-bottom {
+        margin-top: 0;
+    }
+
+    .mt-sm {
+        margin-top: 2em !important;
+    }
+
+    .mt-ul-sm {
+        margin-top: 3.5em;
+    }
+
+    .offset-response2 {
+        margin-right: 11vw!important;
+    }
+    .offset-response {
+        margin-right: auto!important;
+        margin-left: auto!important;
+    }
+
+    /*-------------------- width  --------------------*/
+    .width-bt {
+        width: 28vw !important;
+    }
+
+    .width-txt {
+        width: 80%;
+    }
+
+    .width-bot {
+        width: 100%;
+    }
+    .w-50-sm {
+        width: 36%!important;
+    }
+    /*-------------------- height  --------------------*/
+    /*height text box*/
+    .height-txt {
+        height: 3em !important;
+    }
+
+    .height-bt {
+        height: 2.5em !important;
+    }
+
+    /*گل دیو ثبت نام*/
+    .height-tbt {
+        height: 5.5em;
+    }
+
+    /*fake div*/
+    .div-height {
+        height: 22em !important;
+        /*height: 13em !important;*/
+    }
+
+    /*height sm md i-pad-pro chichi*/
+    .h-sm-md {
+        height: 70% !important;
+    }
+
+    /*height footer*/
+    .footer-height {
+        height: 44em !important;
+    }
+
+    .height-img-md-1 {
+        height: auto;
+    }
+    /*--------------------- size ---------------------*/
+    .size-i-pad-social-icon {
+        height: 3em!important;
+        width: 2vw!important;
+    }
+    .size-i-pad-social-belief {
+        height: 34vh!important;
+        width: 29vw!important;
+    }
+    /*-------------------- fontsize  --------------------*/
+    .fs-text-error {
+        font-size: 2.2vw;
+    }
+    .fs-sub-text-footer {
+        font-size: 3vw !important;
+    }
+    .fs-title-content {
+        font-size: 4vw !important;
+    }
+
+    .fs-md-menu {
+        font-size: 3vw !important;
+    }
+
+    .fs-txt-holder {
+        font-size: 3vw !important;
+    }
+
+    .fs-content {
+        font-size: 3.3vw!important;
+    }
+
+    .fs-bt {
+        font-size: 2.5vw !important;
+    }
+
+    .fs-massage {
+        font-size: 2.5vw !important;
+    }
+
+
+    .fs-subtitle-content {
+        font-size: 2.5vw!important;
+    }
+
+    .fs-text-footer {
+        font-size: 3.5vw;
+    }
+
+    .fs-social {
+        font-size: 3.8vw!important;
+    }
+
+    .fs-text-after-footer {
+        font-size: 2vw !important;
+    }
+
+    .line-h-1 {
+        line-height: 30px!important;
+    }
+
+    .line-h-2 {
+        line-height: 30px!important;
+    }
+
+    .line-h-3 {
+        line-height: 30px!important;
+    }
+
+    /*-------------------- align  --------------------*/
+    .align-items-sm-md-i-pad {
+        align-items: center;
+    }
+
+    .align-items-ul {
+        -ms-flex-line-pack: center !important;
+        align-content: center !important;
+    }
+
+    /*------------------ display  -------------------*/
+    .d-i-pad-none {
+        /*display: none!important;*/
+    }
+
+    /*------------------ padding  -------------------*/
+    .item-social-pr-pl-i-pad {
+        padding-right: 10.5625vw !important;
+        padding-left: 10.5625vw !important;
+    }
+
+    .pr-i-pad-0 {
+        /*padding-right: 0;*/
+    }
+
+    .padding-input {
+        padding-top: 13px;
+    }
+
+    .justify-content-responsive {
+        -ms-flex-pack: center !important;
+        justify-content: center !important;
+    }
+
+    .justify-content-2-responsive {
+        -ms-flex-pack: center !important;
+        justify-content: center !important;
+    }
+
+    .justify-content-error-ms {
+        justify-content: center !important;
+
+    }
+    /*.padding-ul-sm-md*/
+    /*{*/
+    /*    padding-right: 0!important;*/
+    /*}*/
+
+}
+
+/*i-pad*/
+@media screen and (max-height: 820px ) and (min-height: 768px) and (max-width: 1050px) and (min-width: 1024px) and (orientation: landscape) {
+
+    /*--------------------- size ---------------------*/
+    .size-i-pad-social-icon {
+        height: 2.5em!important;
+        width: 3vw!important;
+    }
+    .size-i-pad-social-belief {
+        height: 12vh!important;
+        width: 9vw!important;
+    }
+    /*--------------------- img ---------------------*/
+
+    .h-img-start {
+        height: 65%!important;
+    }
+    .h-img {
+             height: 80%!important;
+    }
+    .h-img-end {
+        height: 85%!important;
+    }
+
+    .bg-image-footer
+    {
+        background-image:url("../pic/footer1.png")!important;
+    }
+    /*--------------------- col ---------------------*/
+    .col-response {
+        width: 41.66% !important;
+    }
+
+    .height-menu {
+        height: 56px !important;
+    }
+
+    /*--------------------- label ---------------------*/
+    label {
+        /*order: -1;*/
+        margin-right: 9vw !important;
+        /*padding-right: 40px;*/
+        transition: all 0.3s ease-in;
+        transform: translateY(18px)!important;
+        font-size: 1.5vw !important;
+        pointer-events: none;
+    }
+
+    input:focus + label {
+        transform: translateY(1px)!important;
+        font-size: 1.2vw!important;
+        /*    */
+    }
+
+    .focusLabel {
+        transform: translateY(1px);
+        font-size: 1.2vw!important;
+    }
+
+    /*--------------------- br ---------------------*/
+    .border-ra-text {
+        border-radius: 8px;
+    }
+
+    /*--------------------- div ---------------------*/
+    .div-bottom-content {
+        margin-top: 0 !important
+    }
+
+    .invite-friend {
+        font-size: 1.3vw!important;
+        transition: 0.2s!important;
+    }
+
+    .invite-friend:hover {
+        font-size: 1.5vw!important;
+        transition: 0.2s!important;
+    }
+
+    /*-------------------- margin  --------------------*/
+    .mt-image-1 {
+        margin-top: 1.9em;
+    }
+
+    .mt-free-send {
+        margin-top: 1.5em !important;
+    }
+
+    .m-r-l-auto {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /*کل متن چی چی؟؟*/
+    .mt-md-8-sm-4 {
+        margin-top: 7em !important;
+    }
+
+    /*همین حالا ثبت نام کنید !*/
+    .m-response2 {
+        margin-right: 8.1% !important;
+        /* margin-right: 10% !important; */
+    }
+
+    /*text box*/
+    .mt-text3 {
+        margin-top: 0.5em !important;
+    }
+
+    /*ثبت نامم کن !*/
+    .mt-bt1 {
+        margin-top: 1em;
+    }
+
+    .mt-bt {
+        margin-top: 3.4em !important;
+    }
+
+    /*دوستانتان را دعوت کنید*/
+    .mt-invite {
+        margin-top: 0.5em !important;
+    }
+
+    /*یه هفته ارسال رایگان چطوره؟*/
+    .mt-response3 {
+        margin-top: 20% !important;
+    }
+
+    .mt-social-belief {
+        margin-top: 3em!important;
+    }
+
+    .mt-social-icon1 {
+        margin-top: 0.3em!important;
+    }
+
+    .mt-social-icon2 {
+        margin-top: 3em !important;
+        margin-right: 2rem!important;
+    }
+
+    .mt-response-sub-1-3 {
+        margin-top: 0;
+    }
+
+    .mt-between-chichi {
+        margin-top: 0.8em;
+    }
+
+    .mt-bottom {
+        margin-top: 0;
+    }
+
+    .mt-sm {
+        margin-top: 1em!important;
+    }
+
+    .mt-ul-sm {
+        margin-top: 3.5em;
+    }
+
+    .offset-response2 {
+        margin-right: 0!important;
+    }
+
+    /*-------------------- width  --------------------*/
+    .width-bt {
+        width: 17vw !important;
+    }
+
+    .width-txt {
+        width: 100%!important;
+    }
+
+    .width-bot {
+        width: 100%;
+    }
+
+    /*-------------------- height  --------------------*/
+    /*height text box*/
+    .height-txt {
+        height: 2em !important;
+    }
+
+    .height-bt {
+        height: 2.5em !important;
+    }
+
+    /*گل دیو ثبت نام*/
+    .height-tbt {
+        height: 5.5em;
+    }
+
+    /*fake div*/
+    .div-height {
+        height: 25em !important;
+        /*height: 13em !important;*/
+    }
+
+    /*height sm md i-pad-pro chichi*/
+    .h-sm-md {
+        height: 25%!important;
+    }
+
+    /*height footer*/
+    .footer-height {
+        height: 14em !important;
+    }
+
+    .height-img-md-1 {
+        height: auto;
+    }
+    .sub-footer-height-10-70 {
+        height: 74% !important;
+    }
+    /*-------------------- fontsize  --------------------*/
+    .fs-text-error {
+        font-size: 1.2vw!important;
+    }
+
+    .fs-title-content {
+        font-size: 2.7vw !important;
+    }
+
+    .fs-md-menu {
+        font-size: 1.7vw !important;
+    }
+
+    .fs-txt-holder {
+        font-size: 3vw !important;
+    }
+
+    .fs-content {
+        font-size: 2vw!important;
+    }
+
+    .fs-bt {
+        font-size: 1.5vw !important;
+    }
+
+    .fs-massage {
+        font-size: 2.5vw !important;
+    }
+
+    .fs-sub-text-footer {
+        font-size: 1.3vw !important;
+    }
+
+    .fs-text-footer {
+        font-size: 2.5vw!important;
+    }
+
+    .fs-social {
+
+        font-size: 1.1vw!important;
+    }
+
+    .fs-text-after-footer {
+        font-size: 1.5vw !important;
+    }
+
+    .line-h-1 {
+        line-height: 24px !important;
+    }
+
+    .line-h-2 {
+        line-height: 24px!important;
+    }
+
+    .line-h-3 {
+        line-height: 24px!important;
+    }
+    .fs-subtitle-content {
+        font-size: 1.5vw!important;
+    }
+    /*-------------------- align  --------------------*/
+    .align-items-sm-md-i-pad {
+        align-items: center;
+    }
+
+    .align-items-ul {
+        -ms-flex-line-pack: center !important;
+        align-content: center !important;
+    }
+    .justify-content-land {
+        justify-content: end!important;
+    }
+    /*------------------ display  -------------------*/
+    .d-i-pad-none {
+        /*display: none!important;*/
+    }
+
+    /*------------------ padding  -------------------*/
+    .item-social-pr-pl-i-pad {
+        padding-right: 0.5625vw !important;
+        padding-left: 0.5625vw !important;
+    }
+
+    .padding-input {
+        padding-top: 13px!important;
+        padding-right: 2vw!important;
+    }
+
+    .justify-content-responsive {
+        -ms-flex-pack: center !important;
+        justify-content: center !important;
+    }
+
+    .justify-content-2-responsive {
+        -ms-flex-pack: center !important;
+        justify-content: center !important;
+    }
+
+    .justify-content-error-ms {
+        justify-content: center !important;
+
+    }
+    .padding-ul-sm-md {
+        padding-right: 2em!important;
+    }
+    .pad-r-0-land {
+        padding-right: 0 !important;
+    }
+    .pr-i-pad-0 {
+        padding-right: 0!important;
+    }
+
+    .pt-ul-land {
+padding-top: 2em;
+    }
+}
+
+/*i-pad-pro*/
+@media screen and (min-height: 1024px) and (min-width: 1366px) and (orientation: landscape) {
+
+    /*--------------------- col ---------------------*/
+    .col-response {
+        width: 41.66% !important;
+    }
+
+    /*--------------------- img ---------------------*/
+    .h-img {
+        height: auto;
+    }
+    .h-img-start {
+        height: auto;
+    }
+    .h-img-end {
+        height: auto;
+    }
+    /*--------------------- label ---------------------*/
+    label {
+        /*order: -1;*/
+
+        padding-left: 5px;
+        transition: all 0.3s ease-in;
+        transform: translateY(12px);
+        font-size: 1.5vw!important;
+        pointer-events: none;
+    }
+
+    input:focus + label {
+        transform: translateY(0);
+        font-size: 1.2vw!important;
+        /*    */
+    }
+
+    .focusLabel {
+        transform: translateY(0);
+        font-size: 1.2vw!important;
+    }
+
+    /*--------------------- br ---------------------*/
+    .border-ra-text {
+        border-radius: 13px;
+    }
+
+    /*--------------------- div ---------------------*/
+    .div-bottom-content {
+        margin-top: 2em !important
+    }
+
+    .invite-friend {
+        font-size: 1.4vw;
+    }
+
+    .invite-friend:hover {
+        font-size: 1.6vw;
+        transition: 0.2s;
+    }
+
+    /*-------------------- margin  --------------------*/
+    .mt-image-1 {
+        margin-top: 0 !important;
+    }
+
+    .m-r-l-auto {
+        margin-left: auto;
+        margin-right: 0;
+    }
+
+    .mt-free-send {
+        margin-top: 3em !important;
+    }
+
+    /*کل متن چی چی؟؟*/
+    .mt-md-8-sm-4 {
+        margin-top: 6em;
+    }
+
+    /*همین حالا ثبت نام کنید !*/
+    .mt-response2 {
+        margin-top: -3em !important;
+    }
+
+    /*text box*/
+    .mt-text3 {
+        margin-top: 0.5em !important;
+    }
+
+    /*ثبت نامم کن !*/
+    .mt-bt1 {
+        margin-top: 0.5em;
+    }
+
+    .mt-bt {
+        margin-top: 10em !important;
+    }
+
+    /*دوستانتان را دعوت کنید*/
+    .mt-invite {
+        margin-top: 0.5em !important;
+    }
+
+    /*یه هفته ارسال رایگان چطوره؟*/
+    .mt-response3 {
+        margin-top: 10% !important;
+    }
+
+    .mt-social-belief {
+        margin-top: 3em !important;
+    }
+
+    .mt-social-icon1 {
+        margin-top: 0.4em !important
+    }
+
+    .mt-social-icon2 {
+        margin-top: 1em;
+    }
+
+    .mt-response-sub-1-3 {
+        margin-top: 0.5em;
+    }
+
+    .mt-between-chichi {
+        margin-top: 0.5em;
+    }
+
+    .mt-bottom {
+        margin-top: 0;
+    }
+
+    .offset-response2 {
+        margin-right: 0;
+    }
+
+    .mt-ul-sm {
+        padding-top: 0.5em!important;
+    }
+    .mt-sing-up-land-0 {
+        margin-top: 12em!important;
+    }
+        /*-------------------- width  --------------------*/
+    .width-bt {
+        width: 20vw;
+    }
+
+    .width-txt {
+        width: 37vw;
+    }
+
+    .width-bot {
+        width: 37vw;
+    }
+
+    /*-------------------- height  --------------------*/
+    /*height text box*/
+    .height-txt {
+        height: 3em!important;
+    }
+
+    .height-bt {
+        height: 3em;
+    }
+
+    /*گل دیو ثبت نام*/
+    .height-bt {
+        height: 3.6em!important;
+    }
+
+    /*fake div*/
+    .div-height {
+        height: 20em;
+        /*height: 20em !important;*/
+    }
+
+    /*height sm md i-pad-pro chichi*/
+    .h-sm-md {
+        height: 25%;
+    }
+
+    .height-img-md-1 {
+        height: auto;
+    }
+
+    .size-i-pad-social-icon {
+        height: 3em;
+    }
+
+    .size-i-pad-social-belief {
+        height: 12vh!important;
+        width: 9vw!important;
+    }
+
+    .offset-response {
+        margin-right: 3.333333%;
+    }
+
+    .height-error-mas {
+        height: 2em;
+    }
+
+    .height-Footer-UL {
+        height: 70%!important;
+    }
+    .height-Footer-UL {
+        height:85% !important;
+    }
+    .item-social-pr-pl-i-pad {
+        padding-right: 1.6875vw!important;
+        padding-left: 1.6875vw!important;
+    }
+    /*-------------------- fontsize  --------------------*/
+    .fs-text-error {
+        font-size: 1.4vw;
+    }
+
+    .footer-height {
+
+        height: 15.2em!important;
+    }
+    .fs-social {
+        font-size: 1.3vw!important;
+    }
+
+    .fs-title-content {
+        font-size: 2.7vw!important;
+    }
+
+    .fs-content {
+        font-size: 1.8vw;
+    }
+
+    .fs-txt-holder {
+        font-size: 1.8vw !important;
+    }
+
+    .fs-md-menu {
+        font-size: 2.5vw;
+    }
+
+    .fs-bt {
+        font-size: 1.5vw !important;
+    }
+
+    .fs-massage {
+        font-size: 1.5vw !important;
+    }
+
+    .fs-sub-text-footer {
+        font-size: 1.6vw;
+    }
+
+    .fs-text-footer {
+        font-size: 1.3vw!important;
+    }
+
+    .fs-text-after-footer {
+        font-size: 1.3vw!important;
+    }
+
+    .line-h-1 {
+        line-height: 34px;
+    }
+
+    .line-h-2 {
+        line-height: 34px;
+    }
+
+    .line-h-3 {
+        line-height: 34px;
+    }
+
+    .fs-li-icon {
+        font-size: 0.8vw;
+    }
+
+    /*-------------------- align  --------------------*/
+    .align-items-sm-md-i-pad {
+        align-items: end;
+        flex-wrap: nowrap;
+    }
+
+    .align-items-ul {
+        -ms-flex-line-pack: center !important;
+        align-content: center !important;
+    }
+
+    /*------------------ display  -------------------*/
+    .d-i-pad-none {
+        /*display: none!important;*/
+    }
+
+    /*------------------ padding  -------------------*/
+    .item-social-pr-pl-i-pad {
+        padding-right: 0.78125vw;
+        padding-left: 0.78125vw;
+    }
+
+    .pr-i-pad-0 {
+        padding-right: 0 !important;
+    }
+
+    .padding-input {
+        padding-top: 13px!important;
+        padding-right: 0.5em!important;
+    }
+
+    .justify-content-responsive {
+        -ms-flex-pack: end !important;
+        justify-content: flex-end !important
+    }
+
+    .justify-content-2-responsive {
+        -ms-flex-pack: end !important;
+        justify-content: flex-end !important
+    }
+
+    .justify-content-error-ms {
+        justify-content: end !important;
+
+    }
+
+    .pad-r-0-land {
+        padding-right: 0 !important;
+    }
+
+}
+
+/*/*iphone x*/
+@media screen and (height: 375px) and (width: 812px) and (orientation: landscape) {
+    /*html {*/
+    /*    transform: rotate(-90deg);*/
+    /*    transform-origin: left top;*/
+    /*    width: 100vh;*/
+    /*    overflow-x: scroll;*/
+    /*    overflow-y: hidden;*/
+    /*    position: absolute;*/
+    /*    top: 100%;*/
+    /*    left: 0;*/
+    /*}*/
+
+    /*--------------------- col ---------------------*/
+    .col-response {
+        width: 41.66% !important;
+    }
+
+    /*--------------------- img ---------------------*/
+
+
+    .h-img-start {
+        height: 106%!important;
+        width: 100%!important;
+    }
+    .h-img {
+        height: 79%!important;
+    }
+    .h-img-end {
+        height: auto;
+    }
+    .bg-image-footer {
+        background-image: url("../pic/footer4.svg") !important;
+    }
+    /*--------------------- label ---------------------*/
+    label {
+        /*order: -1;*/
+
+        padding-left: 5px;
+        transition: all 0.3s ease-in;
+        transform: translateY(13px)!important;
+        font-size: 1.7vw!important;
+        pointer-events: none;
+    }
+
+    input:focus + label {
+        transform: translateY(5px)!important;
+        font-size: 1.2vw!important;
+        /*    */
+    }
+
+    .focusLabel {
+        transform: translateY(5px)!important;
+        font-size: 1.2vw!important;
+    }
+
+    /*--------------------- br ---------------------*/
+    .border-ra-text {
+        border-radius: 13px;
+    }
+
+    /*--------------------- div ---------------------*/
+    .div-bottom-content {
+        margin-top: 2em !important
+    }
+
+    .invite-friend {
+        font-size: 1.4vw;
+    }
+
+    .invite-friend:hover {
+        font-size: 1.6vw;
+        transition: 0.2s;
+    }
+
+    /*-------------------- margin  --------------------*/
+    .mt-image-1 {
+        margin-top: 0 !important;
+    }
+
+    .m-r-l-auto {
+        margin-left: auto;
+        margin-right: 0;
+    }
+
+    .mt-free-send {
+        margin-top: 3em !important;
+    }
+
+    /*کل متن چی چی؟؟*/
+    .mt-md-8-sm-4 {
+        margin-top: 5em!important;
+    }
+
+    /*همین حالا ثبت نام کنید !*/
+    .mt-response2 {
+        margin-top: 8em!important;
+    }
+
+    .mt-response3 {
+        margin-top: 0 !important;
+    }
+    /*text box*/
+    .mt-text3 {
+        margin-top: 0.5em !important;
+    }
+
+    /*ثبت نامم کن !*/
+    .mt-bt1 {
+        margin-top: 0.5em;
+    }
+
+    .mt-bt {
+        margin-top: 10em !important;
+    }
+
+    /*دوستانتان را دعوت کنید*/
+    .mt-invite {
+        margin-top: 0.5em !important;
+    }
+
+    /*یه هفته ارسال رایگان چطوره؟*/
+
+
+    .mt-social-belief {
+        margin-top: 4.5em!important;
+    }
+
+    .mt-social-icon1 {
+        margin-top: 0.3em!important;
+    }
+
+    .mt-social-icon2 {
+        margin-top: 4.5em!important;
+    }
+
+    .mt-response-sub-1-3 {
+        margin-top: 0.5em;
+    }
+
+    .mt-between-chichi {
+        margin-top: 0.5em;
+    }
+
+    .mt-bottom {
+        margin-top: 0;
+    }
+
+    .offset-response2 {
+        margin-right: 1vw!important;
+    }
+    .mt-sing-up-land-0 {
+        margin-top: 0 !important;
+    }
+    .mt-2v {
+        margin-top: 0em!important;
+    }
+    .mt-x {
+        margin-top: 3em;
+    }
+    .mt-ul-sm {
+        margin-top: 2.5em!important;
+    }
+    /*-------------------- width  --------------------*/
+    .width-bt {
+        width: 15vw!important;
+    }
+
+    .width-txt {
+        width: 100%!important;
+    }
+
+    .width-bot {
+        width: 37vw;
+    }
+
+    /*-------------------- height  --------------------*/
+    /*height text box*/
+    .height-txt {
+        height: 2.8em!important;
+    }
+
+    .height-bt {
+        height: 3em;
+    }
+
+    /*گل دیو ثبت نام*/
+    .height-tbt {
+        height: 5.5em;
+    }
+
+    /*fake div*/
+    .div-height {
+        height: 25em!important;
+        /*height: 20em !important;*/
+    }
+
+    /*height sm md i-pad-pro chichi*/
+    .h-sm-md {
+        height: 25%;
+    }
+
+    .height-img-md-1 {
+        height: auto;
+    }
+
+    .size-i-pad-social-icon {
+        height: 1.5em!important;
+    }
+
+    .size-i-pad-social-belief {
+        height: 14vh !important;
+        width: 8vw !important;
+    }
+
+    .offset-response {
+        margin-right: 3.333333%;
+    }
+
+    .height-error-mas {
+        height: 2em;
+    }
+    /*.h-img-start {*/
+    /*    height: 80%!important;*/
+    /*    width: 110%!important;*/
+    /*}*/
+    .height-menu{
+        height: 50px;
+    }
+    .footer-height {
+        height: 7.5em!important;
+    }
+
+    /*-------------------- fontsize  --------------------*/
+    .fs-text-error {
+        font-size: 1.1vw!important;
+    }
+
+
+    .fs-social {
+        font-size: 1vw!important;
+    }
+
+    .fs-title-content {
+        font-size: 1.7vw!important;
+    }
+
+    .fs-content {
+        font-size: 2vw!important;
+    }
+
+    .fs-txt-holder {
+        font-size: 2vw!important;
+    }
+
+    .fs-md-menu {
+        font-size: 1.7vw!important;
+    }
+
+    .fs-bt {
+        font-size: 1.3vw !important;
+    }
+
+    .fs-massage {
+        font-size: 1.5vw !important;
+    }
+
+    .fs-sub-text-footer {
+        font-size: 1.2vw!important;
+    }
+
+    .fs-text-footer {
+        font-size: 1.2vw!important;
+    }
+
+    .fs-text-after-footer {
+        font-size: 1vw!important;
+    }
+
+    .line-h-1 {
+        line-height: 23px!important;
+    }
+
+    .line-h-2 {
+        line-height: 23px!important;
+    }
+
+    .line-h-3 {
+        line-height: 23px!important;
+    }
+
+    .fs-li-icon {
+        font-size: 0.8vw;
+    }
+    .fs-subtitle-content {
+        font-size: 2vw!important;
+    }
+    .invite-friend {
+        font-size: 1.2vw!important;
+        transition: 0.4s;
+
+    }
+    .invite-friend:hover{
+        font-size: 1.5vw!important;
+        transition: 0.4s;
+    }
+    /*-------------------- align  --------------------*/
+    .align-items-sm-md-i-pad {
+        align-items: end;
+        flex-wrap: nowrap;
+    }
+
+    .align-items-ul {
+        -ms-flex-line-pack: center !important;
+        align-content: center !important;
+    }
+
+    /*------------------ display  -------------------*/
+    .d-i-pad-none {
+        /*display: none!important;*/
+    }
+
+    /*------------------ padding  -------------------*/
+    .item-social-pr-pl-i-pad {
+        padding-right: 4.5625vw!important;
+        padding-left: 4.5625vw!important;
+    }
+
+    .pr-i-pad-0 {
+        padding-right: 0 !important;
+    }
+
+    .padding-input {
+        padding-top: 18px!important;
+    }
+
+    .justify-content-responsive {
+        -ms-flex-pack: end !important;
+        justify-content: flex-end !important
+    }
+
+    .justify-content-2-responsive {
+        -ms-flex-pack: end !important;
+        justify-content: flex-end !important
+    }
+
+    .justify-content-error-ms {
+        justify-content: end !important;
+
+    }
+    .padding-ul-sm-md {
+        padding-right: 2vw!important;
+    }
+    .pr-x {
+        padding-right: 1.8vw !important;
+    }
+}
+
+/*!*pixel 2 xl*!*/
+@media screen and (height: 411px) and (width: 823px) and (orientation: landscape) {
+
+
+    /*--------------------- col ---------------------*/
+    .col-response {
+        width: 41.66% !important;
+    }
+
+    /*--------------------- img ---------------------*/
+    .h-img {
+        height: auto;
+    }
+
+    .h-img-start {
+        height: 98%!important;
+        width: 101%!important;
+    }
+    .h-img-end {
+        height: auto;
+    }
+    .bg-image-footer {
+        background-image: url("../pic/footer4.svg") !important;
+    }
+    /*--------------------- label ---------------------*/
+    label {
+        /*order: -1;*/
+
+        padding-left: 5px;
+        transition: all 0.3s ease-in;
+        transform: translateY(8px)!important;
+        font-size: 1.5vw!important;
+        pointer-events: none;
+    }
+
+    input:focus + label {
+        transform: translateY(0)!important;
+        font-size: 1.2vw!important;
+        /*    */
+    }
+
+    .focusLabel {
+        transform: translateY(0)!important;
+        font-size: 1.2vw!important;
+    }
+
+    /*--------------------- br ---------------------*/
+    .border-ra-text {
+        border-radius: 13px;
+    }
+
+    /*--------------------- div ---------------------*/
+    .div-bottom-content {
+        margin-top: 2em !important
+    }
+
+    .invite-friend {
+        font-size: 1.4vw;
+    }
+
+    .invite-friend:hover {
+        font-size: 1.6vw;
+        transition: 0.2s;
+    }
+
+    /*-------------------- margin  --------------------*/
+    .mt-image-1 {
+        margin-top: 0 !important;
+    }
+
+    .m-r-l-auto {
+        margin-left: auto;
+        margin-right: 0;
+    }
+
+    .mt-free-send {
+        margin-top: 3em !important;
+    }
+
+    /*کل متن چی چی؟؟*/
+    .mt-md-8-sm-4 {
+        margin-top: 3em!important;
+    }
+
+    /*همین حالا ثبت نام کنید !*/
+    .mt-response2 {
+        margin-top: 4em!important;
+     }
+
+    .mt-response3 {
+        margin-top: 0 !important;
+    }
+    /*text box*/
+    .mt-text3 {
+        margin-top: 0.5em !important;
+    }
+
+    /*ثبت نامم کن !*/
+    .mt-bt1 {
+        margin-top: 0.5em;
+    }
+
+    .mt-bt {
+        margin-top: 10em !important;
+    }
+
+    /*دوستانتان را دعوت کنید*/
+    .mt-invite {
+        margin-top: 0.5em !important;
+    }
+
+    /*یه هفته ارسال رایگان چطوره؟*/
+
+
+    .mt-social-belief {
+        margin-top: 4.8em!important;
+    }
+
+    .mt-social-icon1 {
+        margin-top: 0.3em!important;
+    }
+
+    .mt-social-icon2 {
+        margin-top: 5em!important;
+    }
+
+    .mt-response-sub-1-3 {
+        margin-top: 0.5em;
+    }
+
+    .mt-between-chichi {
+        margin-top: 0.5em;
+    }
+
+    .mt-bottom {
+        margin-top: 0;
+    }
+
+    .mt-sing-up-land-0 {
+        margin-top: 0 !important;
+    }
+    .mt-2v {
+        margin-top: 0em!important;
+    }
+    .mt-x {
+        margin-top: 0;
+    }
+    .offset-response2 {
+        margin-right: 1vw!important;
+    }
+    .mt-ul-sm {
+        margin-top: 3em!important;
+    }
+    /*-------------------- width  --------------------*/
+    .width-bt {
+        width: 15vw!important;
+    }
+
+    .width-txt {
+        width: 100%!important;
+    }
+
+    .width-bot {
+        width: 37vw;
+    }
+
+    /*-------------------- height  --------------------*/
+    /*height text box*/
+    .height-txt {
+        height: 2em!important;
+    }
+
+    .height-bt {
+        height: 3em;
+    }
+
+    /*گل دیو ثبت نام*/
+    .height-tbt {
+        height: 5.5em;
+    }
+
+    /*fake div*/
+    .div-height {
+        height: 25em!important;
+        /*height: 20em !important;*/
+    }
+
+    /*height sm md i-pad-pro chichi*/
+    .h-sm-md {
+        height: 25%;
+    }
+
+    .height-img-md-1 {
+        height: auto;
+    }
+
+    .size-i-pad-social-icon {
+        height: 1.3em!important;
+    }
+
+    .size-i-pad-social-belief {
+        height: 14vh !important;
+        width: 9vw !important;
+    }
+
+    .offset-response {
+        margin-right: 3.333333%;
+    }
+
+    .height-error-mas {
+        height: 2em;
+    }
+
+    .height-menu{
+        height: 50px;
+    }
+
+    /*-------------------- fontsize  --------------------*/
+    .fs-text-error {
+        font-size: 1.1vw!important;
+    }
+
+    .footer-height {
+        height: 8em!important;
+    }
+
+    .fs-social {
+        font-size: 0.9vw!important;
+    }
+
+    .fs-title-content {
+        font-size: 3.5vw!important;
+    }
+
+    .fs-content {
+        font-size: 1.7vw!important;
+    }
+
+    .fs-txt-holder {
+        font-size: 2vw!important;
+    }
+
+    .fs-md-menu {
+        font-size: 2.2vw!important;
+    }
+
+    .fs-bt {
+        font-size: 1.3vw !important;
+    }
+
+    .fs-massage {
+        font-size: 1.5vw !important;
+    }
+
+    .fs-sub-text-footer {
+        font-size: 1.3vw!important;
+    }
+
+    .fs-text-footer {
+        font-size: 1.7vw!important;
+    }
+
+    .fs-text-after-footer {
+        font-size: 1.3vw!important;
+    }
+
+    .line-h-1 {
+        line-height: 22px!important;
+    }
+
+    .line-h-2 {
+        line-height: 22px!important;
+    }
+
+    .line-h-3 {
+        line-height: 22px!important;
+    }
+
+    .fs-li-icon {
+        font-size: 0.8vw;
+    }
+    .fs-subtitle-content {
+        font-size: 2vw!important;
+    }
+    .invite-friend {
+        font-size: 1.2vw!important;
+        transition: 0.4s;
+
+    }
+    .invite-friend:hover{
+        font-size: 1.5vw!important;
+        transition: 0.4s;
+    }
+    /*-------------------- align  --------------------*/
+    .align-items-sm-md-i-pad {
+        align-items: end;
+        flex-wrap: nowrap;
+    }
+
+    .align-items-ul {
+        -ms-flex-line-pack: center !important;
+        align-content: center !important;
+    }
+
+    /*------------------ display  -------------------*/
+    .d-i-pad-none {
+        /*display: none!important;*/
+    }
+
+    /*------------------ padding  -------------------*/
+    .item-social-pr-pl-i-pad {
+        padding-right: 5.5625vw!important;
+        padding-left: 5.5625vw!important;
+    }
+
+
+
+    .padding-input {
+        padding-top: 18px!important;
+    }
+
+    .justify-content-responsive {
+        -ms-flex-pack: end !important;
+        justify-content: flex-end !important
+    }
+
+    .justify-content-2-responsive {
+        -ms-flex-pack: end !important;
+        justify-content: flex-end !important
+    }
+
+    .justify-content-error-ms {
+        justify-content: end !important;
+
+    }
+    .padding-ul-sm-md {
+        padding-right: 2vw!important;
+    }
+    .pr-x {
+        padding-right: 5.8vw !important;
+    }
+}
+
+
+
+/*///////end///////*/
+
+.z-index-1{
+    z-index: 1;
+}
+.cursor-pointer
+{
+    cursor: pointer;
+}
+/*for disable color & background-color bootstrap */
+.btn:focus,.btn:active {
+    outline: none !important;
+    box-shadow: none!important;
+}
+.btn-outline-primary:hover
+{
+    background-color: white!important;
+    color: #007bff!important;
+}
+
+/*                 animate button                */
+.button {
+    border: 2px solid #0d92fd;
+    border-radius: 15vw;
+    height: 3em;
+    text-align: center;
+    display: flex  ;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to left,  #058ffc 50%, white 50%);
+    background-size: 200% 100%;
+    background-position: left bottom;
+    transition: all 0.5s ease-out;
+}
+.button:hover {
+    background-position: right bottom;
+}
+.text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    text-align: center;
+    font-size: 16px;
+    line-height: 30px;
+    color:  #058ffc;
+    transition: all .6s ease-out;
+
+}
+.text:hover {
+    color: white;
+}
+
+/*!*******************************************text box**************************************!*/
+input:focus{
+    border-color: #eaf3f9 !important; ;
+}input:hover{
+    border-color: #eaf3f9 !important; ;
+}
+form {
+    /*display: inline-block;*/
+}
+.field {
+    /*padding-top: 10px;*/
+    display: flex;
+    flex-direction: column;
+}
+/*label {*/
+/*    !*order: -1;*!*/
+
+/*    padding-left: 5px;*/
+/*     transition: all 0.3s ease-in;*/
+/*    transform: translateY(24px);*/
+/*    font-size: 1vw;*/
+/*    pointer-events: none;*/
+/*}*/
+/*input:focus + label {*/
+/*    transform: translateY(2px);*/
+/*    font-size: 0.8vw;*/
+/*!*    *!*/
+/*}*/
+
+
+
+/*!*******************************************font-size**************************************!*/
+.fs-07vw{
+    font-size: 0.7vw;
+}.fs-08vw{
+    font-size: 0.8vw;
+}
+.fs-09vw{
+    font-size: 0.9vw;
+}
+.fs-1vw {
+    font-size: 1vw;
+}.fs-13vw {
+    font-size: 1.3vw;
+}
+.fs-15vw {
+    font-size: 1.5vw;
+}
+
+.fs-16vw {
+    font-size: 1.6vw;
+}
+
+.fs-17vw {
+    font-size: 1.7vw;
+}
+
+.fs-18vw {
+    font-size: 1.8vw;
+}
+
+.fs-19vw {
+    font-size: 1.9vw;
+}
+
+.fs-2vw {
+    font-size: 2vw;
+}
+
+.fs-21vw {
+    font-size: 2.1vw;
+}
+
+.fs-3vw {
+    font-size: 3vw;
+}
+
+ul{
+    height: 100%;
+}
+
+/*******************************************font-family**************************************/
+
+.font-IRANSans{
+    font-family: IRANSans, serif;
+}
+.font-bold {
+    font-family: IRANSans-bold, serif;
+}
+
+.font-light {
+    font-family: IRANSans-light, serif;
+}
+
+.font-ultralight {
+    font-family: IRANSans-ultralight, serif;
+}
+
+.font-medium {
+    font-family: IRANSans-medium, serif;
+}
+
+/*******************************************margin**************************************/
+
+.mt-6 {
+    margin-top: 6vw !important;
+}
+
+.mt-7 {
+    margin-top: 7vw !important;
+}
+.mt-8 {
+    margin-top: 8vw !important;
+}
+.mt-9 {
+    margin-top: 9vw !important;
+}
+.mt-10 {
+    margin-top: 10vw !important;
+}
+.mt-11 {
+    margin-top: 11vw !important;
+}
+.mt-12 {
+    margin-top: 12vw !important;
+}
+.mt-15 {
+    margin-top: 15vw !important;
+}
+.mt-20 {
+    margin-top: 20% !important;
+}
+.mt-30 {
+    margin-top: 30% !important;
+}
+.mt-35 {
+    margin-top: 30% !important;
+}
+.mt-40 {
+    margin-top: 40% !important;
+}
+.mt-2v
+{
+margin-top: 0.8em;
+}
+/******************************************* height **************************************/
+.height-error-mas
+{
+    height: 1.5em;
+}
+
+/******************************************* color **************************************/
+
+.c-menu {
+    color: #5c5c5c;
+}
+.c-menu3 {
+    color: #018dfc;
+}
+.c-text {
+    color: #606B70 ;
+}
+.c-text2 {
+    color: #058ffc;
+}
+.c-font-icon{
+    color: #018dfc;
+    transition:  0.4s;
+}
+.c-font-icon:hover
+{
+    /*color: #4889a3;*/
+    transition: 0.4s;
+}
+.c-after-footer {
+    color: #7b909b;
+}
+
+.c-social {
+    color: #5b747f;
+}
+.c-error
+{
+    color: red;
+}
+.c-success
+{
+color:#60D199;
+}
+.c-text-footer
+{
+    transition: 0.4s;
+
+}
+.c-text-footer:hover {
+    color: #00a3ff;
+    transition: 0.4s;
+}
+
+/*********************************** background_color ***********************************/
+
+.bg-after-footer
+{
+    background-color: #f2f8fd;
+}
+
+.c-menu2 {
+    background: -webkit-linear-gradient(#0695f9, #30d7e0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/******************************************* placeholder , text box **************************************/
+textarea:focus, input:focus{
+    outline: none;
+}
+
+::placeholder {
+    color: #929393;
+    opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #929393;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+    color: #929393;
+}
+input
+
+{
+    padding-left: 0!important;
+}
+.txt-b {
+    border: white solid;
+    padding-right: 1em;
+    background-color: #f9fcfd;
+    transition: 0.4s;
+}
+.txt-b:hover {
+    background-color: #eaf3f9;
+    transition: 0.4s;
+}
+.txt-b:focus {
+    background-color: #eaf3f9;
+    transition: 0.4s;
+}
+
+
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+input[type=number] {
+    -moz-appearance:textfield; /* Firefox */
+}
+/*******************************************height**************************************/
+.h-100-v {
+    height: 50em !important;
+}
+.h-60 {
+    height: 60%!important;
+}
+/*******************************************width**************************************/
+
+.w-100-vw {
+    width: 50em !important;
+}
+
+.container-width {
+    max-width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.content {
+    width: 100%;
+}
+
+
+/*******************************************content 1**************************************/
+
+.ct-1 {
+    width: 100%;
+}
+
+/******************************************* content 2*************************************/
+
+
+.ct-2 {
+    width: 100%;
+    /*height: 130vh;*/
+}
+
+/************************************** direction **************************************/
+
+.d-rtl {
+    direction: rtl !important;
+}
+
+.d-ltr {
+    direction: ltr !important;
+}
+
+/*************************************** border ***************************************/
+
+.b-radius {
+    border-radius: 15vw;
+
+}
+.br-bottom
+ {
+border-bottom: #058ffc solid 2px ;
+
+ }
+
+/*************************************** text ***************************************/
+.justify-text {
+    /*|inter-word|inter-character|none|initial|inherit*/
+    direction: rtl !important;
+    text-align: justify !important;
+}
+/**************************************  media resolution 1000px  **************************************/
+
+/*---------------------------------  min media  ---------------------------------*/
+
+/*web*/
+@media only screen and (min-width: 1000px) {
+
+    /*--------------------- col ---------------------*/
+    .col-response {
+        width: 41.66% !important;
+    }
+
+    /*--------------------- img ---------------------*/
+    .h-img{
+        height: auto;
+    }
+    .h-img-start {
+        height: auto;
+    }
+    .h-img-end {
+        height: auto;
+    }
+    /*--------------------- label ---------------------*/
+
+    label {
+        /*order: -1;*/
+
+        padding-left: 5px;
+        transition: all 0.3s ease-in;
+        transform: translateY(24px);
+        font-size: 1vw;
+        pointer-events: none;
+    }
+    input:focus + label {
+        transform: translateY(2px);
+        font-size: 0.8vw;
+        /*    */
+    }
+
+    .focusLabel{
+        transform: translateY(2px);
+        font-size: 0.8vw;
+    }
+    /*--------------------- size ---------------------*/
+
+    .size-i-pad-social-belief {
+        height: 17vh;
+        width: 7vw;
+    }
+
+    /*--------------------- div ---------------------*/
+    .div-bottom-content {
+        margin-top: 1em !important
+    }
+    .invite-friend {
+        font-size: 1.2vw;
+        transition: 0.2s;
+    }
+    .invite-friend:hover {
+        font-size: 1.3vw;
+        transition: 0.2s;
+    }
+    /*---------------------direction---------------------*/
+    .dr-md-sm
+    {
+        direction: rtl;
+    }
+    /*---------------------image---------------------*/
+    .img-chichi
+    {
+        width: 100px;
+        height: 100px;
+    }
+
+    /*------------------background------------------*/
+    .bg-image-footer
+    {
+        background-image:url("../pic/footer1.png");
+    }
+    /*------------------ flex-row  ------------------*/
+    .flexrow1 {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        align-items: stretch;
+        align-content: stretch;
+    }
+
+    .flexrow2 {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap-reverse;
+        justify-content: flex-start;
+        align-items: stretch;
+        align-content: stretch;
+    }
+
+    .flexrow-footer {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        align-items: stretch;
+        align-content: stretch;
+    }
+    /*-------------------- margin  --------------------*/
+    .mt-free-send
+    {
+        margin-top:3em!important;
+    }
+    .m-r-l-auto
+    {
+        margin-left: auto;
+        margin-right: 0;
+    }
+    .m-response1 {
+        margin-right: 18% !important;
+        /*margin-right: 10% !important;*/
+    }
+    .mr-menu {
+        margin-right:6%!important;
+    }
+    .mt-menu
+    {
+        margin-top: 3%!important;
+    }
+    .m-response2 {
+        margin-right: 9% ;
+        /*margin-right: 10% !important;*/
+    }
+    .m-response3 {
+        margin-right: 9% !important;
+        /*margin-right: 10% !important;*/
+    }
+    .mt-response2 {
+        margin-top: 20%;
+    }
+
+    .mt-response3 {
+        margin-top: 30%;
+    }
+
+
+    .mt-image-1 {
+        margin-top: 0!important;
+    }
+    .text-content-chichi {
+        margin-right: 0 ;
+    }
+
+    .bottom-center {
+        text-align: right !important;
+    }
+
+    .mt-bottom {
+        margin-top: 0;
+    }
+    .mt-response-sub-1-3 {
+        margin-top: 1.5em;
+    }
+    /*--------------------  text box- -----------------*/
+    .height-txt {
+        height: 4em;
+    }
+    .width-txt {
+        width: 85%;
+    }
+    .width-bot {
+        width: 85%;
+    }
+
+    .mt-text3 {
+        margin-top: 1em;
+    }
+
+    .mt-between-chichi {
+        margin-top: 0.95em;
+    }
+    .border-ra-text
+    {
+        border-radius: 16px;
+    }
+    /*----------- height text box , bt , div ----------*/
+    .height-tbt {
+        height: 7.5em;
+    }
+
+    .height-bt {
+        height: 4.2em;
+    }
+    .height-img-md-1
+    {
+        height: 51.5em;
+    }
+    /*-------- height div for responsive in (2) -------*/
+    .div-height {
+        height: 0;
+    }
+
+    /*------------------ with button -----------------*/
+    .w-60
+    {
+        width: 60%;
+    }
+
+    .width-bt {
+        width: 17.5vw;
+    }
+
+    .w-60
+    {
+        width: 60%;
+    }
+    .w-50-sm {
+    /**/
+    }
+
+    .w-100-sm {
+    /**/
+    }
+    .mt-bt1 {
+        margin-top: 1em;
+    }
+    .mt-bt {
+        margin-top: 11.5em;
+    }
+    /*----------- height text box , bt , div ----------*/
+    .h-sm-md
+    {
+        height:11em;
+    }
+    .footer-height {
+        height: 24.2em ;
+    }
+    .h-60{
+        height: 60%;
+    }
+    .sub-footer-height-10-0 {
+        /*0*/
+    }
+
+    .sub-footer-height-20-0 {
+        /*0*/
+    }
+
+    .sub-footer-height-10-75 {
+        height:75%;
+    }
+    .sub-footer-height-10-50 {
+        height: 50%;
+    }
+    .sub-footer-height-10-70 {
+        height: 70%;
+    }
+    .sub-footer-height-10-76 {
+        height: 76%;
+    }
+    .sub-footer-height-25-75 {
+        height:75%;
+    }
+    .sub-footer-height-30-75 {
+        height:75% ;
+    }
+    .text-Footer_UL{
+        text-align: right;
+    }
+    .height-Footer-UL {
+        height: 81%;
+    }
+    .height-Footer-social {
+        height:100%;
+    }
+    .item-social {
+        width: 2.5vw;
+    }
+    .item-belief {
+        width: 7.5vw;
+    }
+    .offset-response {
+        margin-right:3.333333%;
+    }
+
+    /*-------------------- padding  --------------------*/
+
+
+    .pr-i-pad-0 {
+        /*padding-right: 0;*/
+    }
+    .padding-input {
+        padding-top: 13px;
+    }
+
+    /*-------------------- margin  --------------------*/
+    .mt-invite
+    {
+        margin-top: 2.5em!important;
+    }
+    .mt-sub-footer {
+        margin-top: 2.5em;
+    }
+    .mt-social-belief
+    {
+        margin-top:4em
+    }
+    .mt-social-icon1
+    {
+        margin-top:1em;
+    }
+    .mt-social-icon2
+    {
+        margin-top:4em;
+    }
+
+    .mt-md-8-sm-4 {
+        margin-top: 10em
+    }
+    .mb-belief
+    {
+    /**/
+    }
+    .mt-content
+    {
+        margin-top: 5em;
+    }
+    .offset-response2 {
+        margin-right: 0;
+    }
+    /*-------------------- fontsize  --------------------*/
+    .fs-text-error
+    {
+        font-size: 0.8vw;
+    }
+    .fs-md-menu
+    {
+        font-size: 1.5vw;
+    }
+    .fs-title-content {
+        font-size: 3vw;
+    }
+    .fs-subtitle-content {
+             font-size: 1.7vw;
+    }
+
+    .fs-content {
+        font-size:1.4vw;
+    }
+    .fs-bt
+    {
+        font-size: 1.6vw;
+    }
+    .fs-massage
+    {
+        font-size: 1.5vw!important;
+    }
+    .fs-invite
+    {
+        font-size: 1.2vw;
+    }
+
+    .fs-text-footer {
+        font-size: 1.3vw;
+    }
+    .fs-sub-text-footer {
+        font-size: 1.1vw;
+    }
+    .fs-text-after-footer {
+        font-size: 0.9vw;
+    }
+    .fs-social {
+        font-size: 1vw;
+    }
+    .fs-txt-holder {
+        font-size: 1vw;
+    }
+    .line-h-1{
+        line-height: 50px;
+    }
+    .line-h-2{
+        line-height: 50px;
+    }
+    .line-h-3{
+        line-height: 50px;
+    }
+    .fs-li-icon{
+        font-size: 0.5vw;
+    }
+    /*-------------------- align  --------------------*/
+    .align-items-footer1 {
+        align-items: flex-end !important;
+    }
+    .align-items-footer2 {
+        align-items: flex-end !important;
+    }
+    .align-social {
+        -ms-flex-align: end !important;
+        align-items: flex-end !important;
+    }
+    .text-center-sm {
+    }
+    .align-items-sm-md-i-pad
+    {
+        align-items: center;
+    }
+    .align-items-ul
+    {
+        -ms-flex-align:end!important;
+        align-items:flex-end!important;
+    }
+    /*-------------------- align  --------------------*/
+    .overflow-md-hidden{
+        overflow: hidden!important;
+    }
+    /*------------------ display  -------------------*/
+    .d-i-pad-none
+    {
+        /*display: none!important;*/
+    }
+    /*------------------ padding  -------------------*/
+    .item-social-pr-pl-i-pad
+    {
+        padding-right: 4.6875vw;
+        padding-left: 4.6875vw;
+    }
+
+    .justify-content-responsive {
+        -ms-flex-pack:end!important;
+        justify-content:flex-end!important
+    }
+    .justify-content-2-responsive{
+        -ms-flex-pack:end!important;
+        justify-content:flex-end!important
+    }
+    .justify-content-error-ms {
+        justify-content: end !important;
+
+    }
+
+}
+
+/*--------------------------------- max media ---------------------------------*/
+
+/*phone*/
+@media only screen and (max-width: 1000px) {
+
+    /*--------------------- col ---------------------*/
+    .col-response {
+        width: 41.66% !important;
+    }
+
+    /*--------------------- img ---------------------*/
+    .h-img{
+        height: auto;
+    }
+    .h-img-start {
+        height: auto;
+    }
+    .h-img-end {
+        height: auto;
+    }
+    /*--------------------- label ---------------------*/    label {
+        /*order: -1;*/
+
+        padding-left: 5px;
+        transition: all 0.3s ease-in;
+        transform: translateY(24px);
+        font-size: 1vw;
+        pointer-events: none;
+    }
+    input:focus + label {
+        transform: translateY(2px);
+        font-size: 0.8vw;
+        /*    */
+    }
+
+    .focusLabel{
+        transform: translateY(-1px);
+        font-size: 0.8vw;
+    }
+
+    /*--------------------- div ---------------------*/
+    .div-bottom-content {
+        margin-top: 3em !important
+    }
+    .invite-friend {
+        font-size: 1.2vw;
+    }
+
+
+    /*---------------------direction---------------------*/
+    .dr-md-sm
+    {
+        direction: ltr;
+    }
+    /*---------------------image---------------------*/
+    .img-chichi
+    {
+        width: 50px;
+        height: 50px;
+    }
+    /*------------------background------------------*/
+    .bg-image-footer
+    {
+        background-image:url("../pic/footer3.svg");
+    }
+    /*------------------ flex-row  ------------------*/
+    .flexrow1 {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap-reverse;
+        flex-wrap: wrap-reverse;
+    }
+
+    .flexrow2 {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+
+    .flexrow-footer{
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+    /*-------------------- margin  --------------------*/
+    .mt-image-1 {
+        margin-top: 2em;
+    }
+    .mt-free-send
+    {
+        margin-top:3em!important;
+    }
+    .m-r-l-auto
+    {
+        margin-left: auto;
+        margin-right: 0;
+    }
+    .m-response1 {
+        margin-right:0!important;
+    }
+
+    .mr-menu {
+        margin-right:0%!important;
+    }
+    .mt-menu
+    {
+        margin-top: 0%!important;
+    }
+    .mt-response2 {
+        margin-top: 1%;
+    }
+
+    .mt-response3 {
+        margin-top: 10%;
+    }
+
+    .mt-md-8-sm-4 {
+        margin-top: 1.5em ;
+    }
+    .mt-end-project {
+        margin-top: 0;
+    }
+
+    .text-content-chichi {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .bottom-center
+    {
+        text-align: center!important;
+    }
+    .mt-bottom
+    {
+        margin-top: 0.5em;
+    }
+    .mt-response-sub-1-3 {
+        margin-top: 1em;
+    }
+    .mt-between-chichi {
+        margin-top: 2em;
+    }
+    /*--------------------  text box- -----------------*/
+    .height-txt {
+        height: 2em;
+    }
+    .width-txt {
+        width: 37vw;
+    }
+    .width-bot {
+        width: 37vw;
+    }
+
+    .mt-text3 {
+        margin-top: 0.5em;
+    }
+    .border-ra-text
+    {
+        border-radius: 16px;
+    }
+    /*----------- height text box , bt , div ----------*/
+    .height-tbt {
+        height: 5.5em;
+    }
+
+    .height-bt {
+        height: 3.5em;
+    }
+    .height-img-md-1
+    {
+        height: auto;
+    }
+    /*-------- height div for responsive in (2) -------*/
+    .div-height {
+        height: 10em;
+    }
+
+
+    /*------------------ with button -----------------*/
+    .width-bt {
+        width: 32vw;
+    }
+
+
+    .w-60
+    {
+        width: 60%;
+    }
+    .w-50-sm {
+        width: 50%;
+    }
+
+    .w-100-sm {
+        width: 100%;
+    }
+    .mt-bt1 {
+        margin-top: 1em;
+    }
+    .mt-bt {
+        margin-top: 0;
+    }
+
+
+    /*----------- height text box , bt , div ----------*/
+    .h-sm-md
+    {
+        height:25%;
+    }
+
+    .footer-height {
+        /*height: 100vh !important;*/
+        height: 50em ;
+    }
+
+    .sub-footer-height-10-0 {
+        height: 20%;
+    }
+
+    .sub-footer-height-20-0 {
+        height: 20%;
+    }
+
+    .sub-footer-height-10-75 {
+        height: 10%;
+    }
+
+    .sub-footer-height-10-50 {
+        height: 10%;
+    }
+    .sub-footer-height-10-70 {
+        height: 10%;
+    }
+    .sub-footer-height-10-76 {
+        height: 10%;
+    }
+    .sub-footer-height-25-75 {
+        height: 25%;
+    }
+
+    .sub-footer-height-30-75 {
+        height: 30%;
+    }
+
+    .item-social {
+        width: 11vw;
+    }
+
+    .text-Footer_UL {
+        text-align: center;
+    }
+
+    .height-Footer-UL {
+        height: 20%;
+    }
+    .height-Footer-social {
+        height: 20%;
+    }
+
+    .item-belief {
+        width: 40vw;
+    }
+
+    /*-------------------- padding  --------------------*/
+
+    .pr-i-pad-0
+    {
+        /*padding-right: 0;*/
+    }
+    .padding-input {
+        padding-top: 13px;
+    }
+
+    /*-------------------- margin  --------------------*/
+    .mt-invite
+    {
+        margin-top: 0.5em!important;
+    }
+    .mt-sub-footer {
+        margin-top: 5em;
+    }
+
+    .mt-social-belief {
+        margin-top: 1em ;
+    }
+    .mt-social-icon1
+    {
+        margin-top:1em;
+    }
+    .mt-social-icon2
+    {
+        margin-top:1em;
+    }
+    .mt-content
+    {
+        margin-top: 5em;
+    }
+    .mb-belief
+    {
+        margin-bottom: 2.5em;
+    }
+    .offset-response2 {
+        margin-right: 0;
+    }
+    /*-------------------- fontsize  --------------------*/
+    .fs-text-error
+    {
+        font-size: 2vw;
+    }
+    .fs-md-menu
+    {
+        font-size: 2.5vw;
+    }
+
+    .fs-title-content {
+        font-size: 4.5vw;
+    }
+    .fs-subtitle-content {
+        font-size: 3.5vw;
+    }
+
+    .fs-content {
+        font-size:3vw;
+    }
+    .fs-bt
+    {
+        font-size: 2.4vw;
+    }
+    .fs-massage
+    {
+        font-size: 1.5vw!important;
+    }
+    .fs-invite
+    {
+        font-size: 2.2vw;
+    }
+    .fs-text-footer {
+        font-size: 4.5vw;
+    }
+    .fs-text-after-footer {
+        font-size: 2.5vw;
+    }
+    .fs-sub-text-footer {
+        font-size: 4vw;
+    }
+    .fs-social {
+
+        font-size: 4.5vw;
+    }
+    .fs-txt-holder {
+        font-size: 3vw;
+    }
+    .line-h-1{
+        line-height: 18px;
+    }
+    .line-h-2{
+        line-height: 20px;
+    }
+    .line-h-3{
+        line-height: 23px;
+    }
+    /*-------------------- align  --------------------*/
+    .align-items-sm-md-i-pad
+    {
+        align-items: center;
+    }
+    .align-items-footer1 {
+        align-items: flex-start !important;
+    }
+
+    .align-items-footer2 {
+        align-items: flex-start !important;
+    }
+
+    .align-social {
+
+        -ms-flex-align: start !important;
+        align-items: flex-start !important;
+    }
+
+    .text-center-sm {
+        text-align: center !important;
+    }
+    .align-items-ul
+    {
+        -ms-flex-line-pack:center!important;
+        align-content:center!important;
+    }
+    /*-------------------- align  --------------------*/
+    .overflow-md-hidden{
+        /*overflow: hidden!important;*/
+    }
+    /*------------------ display  -------------------*/
+    .d-i-pad-none
+    {
+        display: none!important;
+    }
+    /*------------------ padding  -------------------*/
+    .item-social-pr-pl-i-pad
+    {
+        padding-right: 0.78125vw;
+        padding-left: 0.78125vw;
+    }
+    .justify-content-responsive {
+
+    }
+    .justify-content-2-responsive{
+
+    }
+    .justify-content-error-ms {
+        justify-content: center !important;
+
+    }
+
+}
+
+/*********************************  media resolution (1024 , 1366) for-ipa-d-pro , phone *********************************/
+
+/*phone*/
+@media only screen and (max-width: 1024px) and (max-height: 1366px) {
+
+    /*--------------------- col ---------------------*/
+    .col-response {
+        width: 41.66% !important;
+    }
+
+    /*--------------------- img ---------------------*/
+    .h-img{
+        height: auto;
+    }
+    .h-img-start {
+        height: auto;
+    }
+    .h-img-end {
+        height: auto;
+    }
+    /*--------------------- label ---------------------*/
+    label {
+        /*order: -1;*/
+
+        padding-left: 5px;
+        /*padding-right: 40px;*/
+        transition: all 0.3s ease-in;
+        transform: translateY(12px);
+        font-size: 3vw;
+        pointer-events: none;
+    }
+    input:focus + label {
+        transform: translateY(1px);
+        font-size: 2.8vw;
+        /*    */
+    }
+
+    .focusLabel{
+        transform: translateY(1px);
+        font-size: 2.8vw;
+    }
+    /*--------------------- br ---------------------*/
+
+    .border-ra-text
+    {
+        border-radius: 8px;
+    }
+    /*--------------------- div ---------------------*/
+    .div-bottom-content {
+        margin-top: 0  !important
+    }
+    .invite-friend {
+        font-size: 2.1vw;
+    }
+    .invite-friend:hover {
+        font-size: 2.4vw;
+        transition: 0.2s;
+    }
+    /*-------------------- margin  --------------------*/
+    .mt-image-1 {
+        margin-top: 1.9em;
+    }
+    .mt-free-send
+    {
+        margin-top:1.5em!important;
+    }
+    .m-r-l-auto
+    {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    /*کل متن چی چی؟؟*/
+    .mt-md-8-sm-4 {
+        margin-top: 2em ;
+    }
+
+    /*همین حالا ثبت نام کنید !*/
+    .mt-response2 {
+        margin-top: 1em ;
+    }
+
+    /*text box*/
+    .mt-text3 {
+        margin-top: 0.5em !important;
+    }
+
+    /*ثبت نامم کن !*/
+    .mt-bt1 {
+        margin-top: 1em;
+    }
+    .mt-bt {
+        margin-top: 3.4em !important;
+    }
+
+    /*دوستانتان را دعوت کنید*/
+    .mt-invite {
+        margin-top: 0.5em !important;
+    }
+
+    /*یه هفته ارسال رایگان چطوره؟*/
+    .mt-response3 {
+        margin-top: 20% ;
+    }
+
+    .mt-social-belief
+    {
+        margin-top:2em;
+    }
+    .mt-social-icon1
+    {
+        margin-top:1em;
+    }
+    .mt-social-icon2
+    {
+        margin-top:1em;
+    }
+    .mt-response-sub-1-3 {
+        margin-top: 0;
+    }
+    .mt-between-chichi {
+        margin-top: 0.8em;
+    }
+    .mt-bottom
+    {
+        margin-top:0;
+    }
+    .mt-sm
+    {
+        margin-top: 2em!important;
+    }
+
+    .mt-ul-sm {
+        margin-top: 3.5em;
+    }
+    .offset-response2 {
+        margin-right: 12vw;
+    }
+    .offset-response {
+        margin-right: auto!important;
+        margin-left: auto!important;
+    }
+    /*-------------------- width  --------------------*/
+
+    .width-bt {
+        width: 33vw;
+    }
+    .width-txt {
+        width: 80%;
+    }
+    .width-bot {
+        width: 100%;
+    }
+
+    /*-------------------- height  --------------------*/
+
+
+    /*height text box*/
+    .height-txt {
+        height: 3.5em  ;
+    }
+     .height-bt {
+        height: 1.8em;
+    }
+    /*گل دیو ثبت نام*/
+    .height-tbt {
+        height: 5.5em;
+    }
+
+    /*fake div*/
+    .div-height {
+        height:  17em ;
+        /*height:  13em !important;*/
+    }
+
+    /*height sm md i-pad-pro chichi*/
+    .h-sm-md {
+        height: 30%;
+    }
+
+    /*height footer*/
+    .footer-height {
+        height: 36em ;
+    }
+    .height-img-md-1
+    {
+        height: auto;
+    }
+    /*-------------------- fontsize  --------------------*/
+    .fs-text-error
+    {
+        font-size: 2.2vw;
+    }
+    .fs-title-content {
+        font-size: 7.5vw;
+    }
+    .fs-md-menu
+    {
+        font-size: 3.5vw;
+    }
+    .fs-txt-holder {
+        font-size: 3vw;
+    }
+    .fs-content {
+        font-size:3vw;
+    }
+    .fs-bt {
+        font-size: 2.8vw;
+    }
+    .fs-massage
+    {
+        font-size: 2.5vw!important;
+    }
+    .fs-sub-text-footer
+    {
+        font-size: 4vw;
+    }
+    .fs-text-footer {
+        font-size: 4.5vw;
+    }
+    .fs-social {
+        font-size: 4.5vw;
+    }
+    .fs-text-after-footer {
+        font-size: 2.5vw;
+    }
+    .line-h-1{
+        /*line-height: 1px;*/
+    }
+    .line-h-2{
+        /*line-height: 16px;*/
+    }
+    .line-h-3{
+        /*line-height: 34px;*/
+    }
+    /*-------------------- align  --------------------*/
+    .align-items-sm-md-i-pad
+    {
+        align-items: center;
+    }
+
+    .align-items-ul {
+        -ms-flex-line-pack:center!important;
+        align-content:center!important;
+    }
+
+    /*------------------ display  -------------------*/
+    .d-i-pad-none
+    {
+        /*display: none!important;*/
+    }
+    /*------------------ padding  -------------------*/
+    .item-social-pr-pl-i-pad
+    {
+        padding-right: 8.5625vw;
+        padding-left: 8.5625vw;
+    }
+    .pr-i-pad-0
+    {
+        /*padding-right: 0;*/
+    }
+    .padding-input {
+        padding-top: 13px;
+    }
+
+    .justify-content-responsive {
+        -ms-flex-pack:center!important;
+        justify-content:center;
+    }
+    .justify-content-2-responsive{
+        -ms-flex-pack:center!important;
+        justify-content:center!important;
+    }
+    .justify-content-error-ms {
+        justify-content: center !important;
+
+    }
+    .padding-ul-sm-md
+    {
+        padding-right: 0;
+    }
+
+}
+
+/*i-pad*/
+@media only screen and (min-width: 1024px) and (min-height: 1366px) {
+
+    /*--------------------- col ---------------------*/
+    .col-response {
+        width: 41.66% !important;
+    }
+
+    /*--------------------- img ---------------------*/
+    .h-img{
+        height: auto;
+    }
+    .h-img-start {
+        height: auto;
+    }
+    .h-img-end {
+        height: auto;
+    }
+    /*--------------------- label ---------------------*/
+    label {
+        /*order: -1;*/
+
+        padding-left: 5px;
+        transition: all 0.3s ease-in;
+        transform: translateY(12px);
+        font-size: 2vw;
+        pointer-events: none;
+    }
+    input:focus + label {
+        transform: translateY(0);
+        font-size: 1.5vw;
+        /*    */
+    }
+
+    .focusLabel{
+        transform: translateY(0);
+        font-size: 1.5vw;
+    }
+    /*--------------------- br ---------------------*/
+
+    .border-ra-text {
+        border-radius: 13px;
+    }
+
+    /*--------------------- div ---------------------*/
+    .div-bottom-content {
+        margin-top: 2em !important
+    }
+
+    .invite-friend {
+        font-size: 1.4vw;
+    }
+
+    .invite-friend:hover {
+        font-size: 1.6vw;
+        transition: 0.2s;
+    }
+
+    /*-------------------- margin  --------------------*/
+    .mt-image-1 {
+        margin-top: 0 !important;
+    }
+
+    .m-r-l-auto {
+        margin-left: auto;
+        margin-right: 0;
+    }
+
+    .mt-free-send {
+        margin-top: 3em !important;
+    }
+
+    /*کل متن چی چی؟؟*/
+    .mt-md-8-sm-4 {
+        margin-top: 6em ;
+    }
+
+    /*همین حالا ثبت نام کنید !*/
+    .mt-social-icon2 {
+        margin-top: 1.5em;
+    }
+
+    /*text box*/
+    .mt-text3 {
+        margin-top: 0.5em!important;
+    }
+
+    /*ثبت نامم کن !*/
+    .mt-bt1 {
+        margin-top: 0.5em;
+    }
+
+    .mt-bt {
+        margin-top: 10em !important;
+    }
+
+    /*دوستانتان را دعوت کنید*/
+    .mt-invite {
+        margin-top: 0.5em !important;
+    }
+
+    /*یه هفته ارسال رایگان چطوره؟*/
+    .mt-response3 {
+        margin-top: 10% ;
+    }
+
+    .mt-social-belief {
+        margin-top: 1.5em !important
+    }
+
+    .mt-social-icon1 {
+        margin-top: 0.4em !important
+    }
+    .mt-social-icon2 {
+        margin-top: 2em;
+    }
+    .mt-response-sub-1-3 {
+        margin-top: 0.5em;
+    }
+
+    .mt-between-chichi {
+        margin-top: 0.5em;
+    }
+
+
+    .mt-bottom {
+        margin-top: 0;
+    }
+    .offset-response2 {
+        margin-right: 0;
+    }
+    /*-------------------- width  --------------------*/
+    .width-bt {
+        width: 20vw;
+    }
+
+    .width-txt {
+        width: 37vw;
+    }
+
+    .width-bot {
+        width: 37vw;
+    }
+
+    /*-------------------- height  --------------------*/
+    /*height text box*/
+    .height-txt {
+        height: 3em ;
+    }
+
+    .height-bt {
+        height: 3em;
+    }
+
+    /*گل دیو ثبت نام*/
+    .height-tbt {
+        height: 5.5em;
+    }
+
+    /*fake div*/
+    .div-height {
+        height: 20em ;
+        /*height: 20em !important;*/
+    }
+
+    /*height sm md i-pad-pro chichi*/
+    .h-sm-md {
+        height: 25%;
+    }
+
+    .height-img-md-1 {
+        height: auto;
+    }
+
+    .size-i-pad-social-icon {
+        height: 2.25em;
+    }
+
+    .size-i-pad-social-belief {
+        height: 6vh!important;
+        width: 9vw!important;
+    }
+
+    .offset-response {
+        margin-right: 3.333333%;
+    }
+    .height-error-mas {
+        height: 2em;
+    }
+
+
+
+    /*-------------------- fontsize  --------------------*/
+    .fs-text-error {
+        font-size: 1.4vw;
+    }
+
+    .footer-height {
+        height: 13em ;
+    }
+
+    .fs-social {
+
+        font-size: 1.5vw;
+    }
+
+    .fs-title-content {
+        font-size: 3.5vw;
+    }
+
+    .fs-content {
+        font-size: 1.8vw;
+    }
+
+    .fs-txt-holder {
+        font-size: 2vw !important;
+    }
+
+    .fs-md-menu {
+        font-size: 2.5vw;
+    }
+
+    .fs-bt {
+        font-size: 1.8vw !important;
+    }
+
+    .fs-massage {
+        font-size: 1.5vw !important;
+    }
+
+    .fs-sub-text-footer {
+        font-size: 1.6vw;
+    }
+
+    .fs-text-footer {
+        font-size: 2vw;
+    }
+
+    .fs-text-after-footer {
+        font-size: 1.4vw;
+    }
+
+    .line-h-1 {
+        line-height: 34px;
+    }
+
+    .line-h-2 {
+        line-height: 34px;
+    }
+
+    .line-h-3 {
+        line-height: 34px;
+    }
+
+    .fs-li-icon {
+        font-size: 0.8vw;
+    }
+
+    /*-------------------- align  --------------------*/
+    .align-items-sm-md-i-pad {
+        align-items: end;
+        flex-wrap: nowrap;
+    }
+
+    .align-items-ul {
+        -ms-flex-line-pack: center !important;
+        align-content: center !important;
+    }
+
+    /*------------------ display  -------------------*/
+    .d-i-pad-none {
+        /*display: none!important;*/
+    }
+
+    /*------------------ padding  -------------------*/
+    .item-social-pr-pl-i-pad {
+        padding-right: 0.78125vw ;
+        padding-left: 0.78125vw ;
+    }
+
+    .pr-i-pad-0 {
+        padding-right: 0 !important;
+    }
+    .padding-input {
+        padding-top: 13px;
+    }
+
+    .justify-content-responsive {
+        -ms-flex-pack: end !important;
+        justify-content: flex-end !important
+    }
+
+    .justify-content-2-responsive {
+        -ms-flex-pack: end !important;
+        justify-content: flex-end !important
+    }
+
+    .justify-content-error-ms {
+        justify-content: end !important;
+
+    }
+    .padding-ul-sm-md {
+        padding-right: 3vw;
+    }
+}
+
+/********************************* media resolution (768 , 1024) for-i-pad *********************************/
+
+/*@media only screen and (width: 768px) and (height: 1024px) {*/
+@media screen and (max-width: 820px ) and (min-width: 768px) and (max-height: 1050px) and (min-height: 1024px) {
+
+
+    /*--------------------- col ---------------------*/
+    .col-response {
+        width: 41.66% !important;
+    }
+
+    /*--------------------- img ---------------------*/
+    .h-img{
+        height: auto;
+    }
+    .h-img-start {
+        height: auto;
+    }
+    .h-img-end {
+        height: auto;
+    }
+    /*--------------------- label ---------------------*/
+    label {
+        /*order: -1;*/
+
+        padding-left: 5px;
+        transition: all 0.3s ease-in;
+        transform: translateY(5px);
+        font-size: 2vw;
+        pointer-events: none;
+    }
+    input:focus + label {
+        transform: translateY(-1px);
+        font-size: 1.7vw;
+        /*    */
+    }
+
+    .focusLabel{
+        transform: translateY(-1px);
+        font-size: 1.7vw;
+    }
+
+
+    /*--------------------- text ---------------------*/
+    .line-h-1 {
+        line-height: 21px;
+    }
+
+    .line-h-2 {
+        line-height: 24px;
+    }
+    .border-ra-text {
+        border-radius: 10px;
+    }
+    /*-------------------- padding  --------------------*/
+    .item-social-pr-pl-i-pad {
+        padding-right: 2.5625vw;
+        padding-left: 2.5625vw;
+    }
+
+    /*-------------------- margin  --------------------*/
+
+    .mt-md-8-sm-4 {
+        margin-top: 4em ;
+    }
+
+    .m-response1 {
+        margin-right: 6vw !important;;
+    }
+
+    .mt-image-1 {
+        margin-top: 0.5em;
+    }
+
+    .mt-response2 {
+        margin-top: 0 !important;
+    }
+    .mt-response3{
+        margin-top: 13% ;
+    }
+    .mt-i-pad-0 {
+        margin-top: 1em;
+    }
+
+    .mt-bt {
+        margin-top: 3.5em !important;
+    }
+
+    .mt-ul-sm {
+        margin-top: 2em;
+    }
+
+    .mt-social-belief {
+        margin-top: 5em !important;
+    }
+
+    .mt-social-icon-i-pad {
+        margin-top: 9.5em !important;
+    }
+    .mt-social-icon2 {
+        margin-top: 5em;
+    }
+    .mt-social-icon1 {
+        margin-top: 0!important;
+    }
+
+    .m-response2 {
+        margin-right: 0;
+    }
+    .m-response3 {
+        margin-right: 9%;
+    }
+    .mr-ul-i-pad
+    {
+        margin-right: 3vw;
+    }
+    .offset-response2 {
+        margin-right: 0;
+    }
+    /*-------------------- width  --------------------*/
+    .width-r-img2 {
+        width: 115% !important;
+    }
+
+    .width-content-1 {
+        width: 83%;
+    }
+    .w-50-sm {
+        width: 52%;
+        height: 4.4em;
+    }
+    .width-bt {
+        width: 28vw;
+    }
+    .width-txt {
+        width: 100%;
+    }
+    /*-------------------- height  --------------------*/
+    .footer-height {
+        height: 9em ;
+    }
+    .height-bt {
+        height: 2.5em;
+    }
+    .height-error-mas {
+        height: 1.8em;
+    }
+    .height-txt {
+        height: 3em ;
+    }
+    /*-------------------- fontsize  --------------------*/
+    .fs-subtitle-content {
+        font-size: 3vw;
+    }
+    .fs-title-content {
+        font-size: 3.5vw;
+    }
+    .fs-md-menu {
+        font-size: 3vw;
+    }
+    .fs-content {
+        font-size: 2vw;
+    }
+    .fs-bt {
+        font-size: 2.3vw;
+    }
+    .fs-subtitle-content {
+        font-size: 2.3vw;
+    }
+
+    .fs-text-error {
+        font-size: 1.6vw;
+    }
+
+    .fs-sub-text-footer {
+        font-size: 1.6vw;
+    }
+
+    .fs-text-footer {
+        font-size: 3vw !important;
+    }
+
+
+    .fs-text-after-footer {
+        font-size: 1.5vw;
+    }
+    .fs-social {
+        font-size: 1.4vw;
+    }
+    .fs-txt-holder {
+        font-size: 1.5vw !important;
+    }
+    /*-------------------- align  --------------------*/
+
+    .text-md-left {
+        text-align: right!important;
+    }
+    /*------------------ display  -------------------*/
+
+    /*------------------ size  -------------------*/
+    .size-i-pad-social-icon {
+        height: 1.7em;
+        width: 3vw;
+    }
+    /*------------------ padding  -------------------*/
+    .padding-input {
+        padding-top: 5px;
+    }
+    .padding-ul-sm-md {
+        padding-right: 2vw;
+    }
+    /*------------------  bg  -------------------*/
+    .bg-image-footer {
+        background-image: url("../pic/footer1.png");
+
+    }
+
+    /*------------------  position  -------------------*/
+    .position-img2 {
+        right: 6vw !important;
+    }
+}
+
+
+/***************************************** End media *****************************************/
+
+
+
+/************************************* media menu slider *************************************/
+
+
+/**/
+
+@media only screen and (min-width: 991px) {
+    .display-responsive {
+        display: none !important;
+    }
+}
+@media only screen and (max-width: 991px) {
+    .display-responsive{
+        display: block !important;
+    }
+}
+.top-0{
+    top: 0!important;
+}
+.right-0{
+    right: 0!important;
+}
+.right-1{
+    right: 1vw!important;
+}
+
+
+
+
+
+
+/**/
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+.absoluteDiv{
+    position: absolute;
+        top: 0;
+    right: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7) !important;
+    height: 200vh;
+    z-index: 2;
+}
+
+
+.z5 {
+    z-index: 5 !important;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+#btn-nav{
+    border: 0!important;
+}
+
+#btn-nav:focus {
+      outline: 0!important;
+}
+
+
+.headerLink:hover{
+    padding-bottom: 3px;
+    color: #1c86db!important;
+    text-decoration: none;
+    border-bottom: 2px solid #1c86db!important;
+    -webkit-transition: 0.2s;
+    transition: 0.2s;
+}
+
+
+.footer {
+    /*background-image:url("../pic/Path 549@2x.png");*/
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    width: 100%;
+}
+.opacity-0{
+    opacity: 0;
+}
+
+/************************************* bootstrap *************************************/
