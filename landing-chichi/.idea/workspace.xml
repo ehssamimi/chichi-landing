@@ -16,7 +16,7 @@
   <component name="ProjectId" id="1XKjNY5jT33db8LYaVJaGRUAewp" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/reactjs" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RunDashboard">
@@ -46,7 +46,7 @@
       <workItem from="1581142951750" duration="24375000" />
       <workItem from="1581233633114" duration="3974000" />
       <workItem from="1581251817387" duration="2472000" />
-      <workItem from="1581320052424" duration="10826000" />
+      <workItem from="1581320052424" duration="15971000" />
     </task>
     <servers />
   </component>

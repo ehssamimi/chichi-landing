@@ -11,25 +11,12 @@ html {
 }
 /*end overflow x y*/
 
-
-
 /*///////start///////*/
 
 
 
-/*phone*/
+/*!*phone*!*/
 @media screen and (min-width: 320px) and (max-width: 767px) and (orientation: landscape) {
-    html {
-        transform: rotate(-90deg);
-        transform-origin: left top;
-        width: 100vh;
-        overflow-x: scroll;
-        overflow-y: hidden;
-        position: absolute;
-        top: 100%;
-        left: 0;
-    }
-
     /*--------------------- img ---------------------*/
    .h-img{
        height: auto;
@@ -53,23 +40,23 @@ html {
     /*--------------------- label ---------------------*/
     label {
         /*order: -1;*/
-        margin-right: 70px !important;
+        margin-right: 9em !important;
         /*padding-right: 40px;*/
         transition: all 0.3s ease-in;
-        transform: translateY(23px)!important;
+        transform: translateY(20px)!important;
         font-size: 2vw !important;
         pointer-events: none;
     }
 
     input:focus + label {
         transform: translateY(1px)!important;
-        font-size: 2.8vw;
+        font-size: 1.8vw!important;
         /*    */
     }
 
     .focusLabel {
         transform: translateY(1px);
-        font-size: 2.8vw;
+        font-size: 1.8vw!important;
     }
 
     /*--------------------- br ---------------------*/
@@ -93,7 +80,10 @@ html {
 
     /*-------------------- margin  --------------------*/
     .mt-image-1 {
-        margin-top: 1.9em;
+        margin-top: 1.9em!important;
+    }
+    .mt-image-2 {
+        margin-top: 1.9em!important;
     }
 
     .mt-free-send {
@@ -173,7 +163,11 @@ html {
     }
 
     .offset-response2 {
-        margin-right: 12vw;
+        margin-right: 11vw!important;
+    }
+    .offset-response {
+        margin-right: auto!important;
+        margin-left: auto!important;
     }
 
     /*-------------------- width  --------------------*/
@@ -188,7 +182,9 @@ html {
     .width-bot {
         width: 100%;
     }
-
+    .w-50-sm {
+        width: 36%!important;
+    }
     /*-------------------- height  --------------------*/
     /*height text box*/
     .height-txt {
@@ -212,7 +208,7 @@ html {
 
     /*height sm md i-pad-pro chichi*/
     .h-sm-md {
-        height: 30%;
+        height: 70% !important;
     }
 
     /*height footer*/
@@ -223,7 +219,15 @@ html {
     .height-img-md-1 {
         height: auto;
     }
-
+    /*--------------------- size ---------------------*/
+    .size-i-pad-social-icon {
+        height: 3em!important;
+        width: 2vw!important;
+    }
+    .size-i-pad-social-belief {
+        height: 34vh!important;
+        width: 29vw!important;
+    }
     /*-------------------- fontsize  --------------------*/
     .fs-text-error {
         font-size: 2.2vw;
@@ -244,7 +248,7 @@ html {
     }
 
     .fs-content {
-        font-size: 2vw!important;
+        font-size: 3.3vw!important;
     }
 
     .fs-bt {
@@ -265,24 +269,23 @@ html {
     }
 
     .fs-social {
-
-        font-size: 2.3vw!important;
+        font-size: 3.8vw!important;
     }
 
     .fs-text-after-footer {
-        font-size: 1.7vw !important;
+        font-size: 2vw !important;
     }
 
     .line-h-1 {
-        line-height: 23px !important;
+        line-height: 30px!important;
     }
 
     .line-h-2 {
-        /*line-height: 16px;*/
+        line-height: 30px!important;
     }
 
     .line-h-3 {
-        /*line-height: 34px;*/
+        line-height: 30px!important;
     }
 
     /*-------------------- align  --------------------*/
@@ -302,8 +305,8 @@ html {
 
     /*------------------ padding  -------------------*/
     .item-social-pr-pl-i-pad {
-        padding-right: 6.5625vw !important;
-        padding-left: 6.5625vw !important;
+        padding-right: 10.5625vw !important;
+        padding-left: 10.5625vw !important;
     }
 
     .pr-i-pad-0 {
@@ -338,17 +341,6 @@ html {
 /*i-pad*/
 @media screen and (max-height: 820px ) and (min-height: 768px) and (max-width: 1050px) and (min-width: 1024px) and (orientation: landscape) {
 
-    html {
-        transform: rotate(-90deg);
-        transform-origin: left top;
-        width: 100vh;
-        overflow-x: scroll;
-        overflow-y: hidden;
-        position: absolute;
-        top: 100%;
-        left: 0;
-    }
-
     /*--------------------- size ---------------------*/
     .size-i-pad-social-icon {
         height: 2.5em!important;
@@ -359,15 +351,17 @@ html {
         width: 9vw!important;
     }
     /*--------------------- img ---------------------*/
-    .h-img{
-        height: 84%!important;
-    }
+
     .h-img-start {
-        height: 50%!important;
+        height: 65%!important;
+    }
+    .h-img {
+             height: 80%!important;
     }
     .h-img-end {
         height: 85%!important;
     }
+
     .bg-image-footer
     {
         background-image:url("../pic/Path 549@2x.png")!important;
@@ -384,7 +378,7 @@ html {
     /*--------------------- label ---------------------*/
     label {
         /*order: -1;*/
-        margin-right: 80px !important;
+        margin-right: 9vw !important;
         /*padding-right: 40px;*/
         transition: all 0.3s ease-in;
         transform: translateY(18px)!important;
@@ -439,7 +433,7 @@ html {
 
     /*کل متن چی چی؟؟*/
     .mt-md-8-sm-4 {
-        margin-top: 4em !important;
+        margin-top: 7em !important;
     }
 
     /*همین حالا ثبت نام کنید !*/
@@ -473,7 +467,7 @@ html {
     }
 
     .mt-social-belief {
-        margin-top: 2em !important
+        margin-top: 3em!important;
     }
 
     .mt-social-icon1 {
@@ -498,7 +492,7 @@ html {
     }
 
     .mt-sm {
-        margin-top: 2em !important;
+        margin-top: 1em!important;
     }
 
     .mt-ul-sm {
@@ -545,19 +539,19 @@ html {
 
     /*height sm md i-pad-pro chichi*/
     .h-sm-md {
-        height: 30%;
+        height: 25%!important;
     }
 
     /*height footer*/
     .footer-height {
-        height: 20em !important;
+        height: 14em !important;
     }
 
     .height-img-md-1 {
         height: auto;
     }
     .sub-footer-height-10-70 {
-        height: 50% !important;
+        height: 74% !important;
     }
     /*-------------------- fontsize  --------------------*/
     .fs-text-error {
@@ -602,7 +596,7 @@ html {
     }
 
     .fs-text-after-footer {
-        font-size: 1.3vw !important;
+        font-size: 1.5vw !important;
     }
 
     .line-h-1 {
@@ -643,7 +637,8 @@ html {
     }
 
     .padding-input {
-        padding-top: 13px;
+        padding-top: 13px!important;
+        padding-right: 2vw!important;
     }
 
     .justify-content-responsive {
@@ -670,22 +665,13 @@ html {
         padding-right: 0!important;
     }
 
+    .pt-ul-land {
+padding-top: 2em;
+    }
 }
 
 /*i-pad-pro*/
 @media screen and (min-height: 1024px) and (min-width: 1366px) and (orientation: landscape) {
-
-    html {
-        transform: rotate(-90deg);
-        transform-origin: left top;
-        width: 100vh;
-        overflow-x: scroll;
-        overflow-y: hidden;
-        position: absolute;
-        top: 100%;
-        left: 0;
-    }
-
 
     /*--------------------- col ---------------------*/
     .col-response {
@@ -709,19 +695,19 @@ html {
         padding-left: 5px;
         transition: all 0.3s ease-in;
         transform: translateY(12px);
-        font-size: 2vw;
+        font-size: 1.5vw!important;
         pointer-events: none;
     }
 
     input:focus + label {
         transform: translateY(0);
-        font-size: 1.5vw;
+        font-size: 1.2vw!important;
         /*    */
     }
 
     .focusLabel {
         transform: translateY(0);
-        font-size: 1.5vw;
+        font-size: 1.2vw!important;
     }
 
     /*--------------------- br ---------------------*/
@@ -792,7 +778,7 @@ html {
     }
 
     .mt-social-belief {
-        margin-top: 1.5em !important
+        margin-top: 3em !important;
     }
 
     .mt-social-icon1 {
@@ -820,9 +806,11 @@ html {
     }
 
     .mt-ul-sm {
-        padding-top: 6.5em!important;
+        padding-top: 0.5em!important;
     }
-
+    .mt-sing-up-land-0 {
+        margin-top: 12em!important;
+    }
         /*-------------------- width  --------------------*/
     .width-bt {
         width: 20vw;
@@ -867,7 +855,7 @@ html {
     }
 
     .size-i-pad-social-icon {
-        height: 2.25em;
+        height: 3em;
     }
 
     .size-i-pad-social-belief {
@@ -899,12 +887,11 @@ html {
     }
 
     .footer-height {
-        height: 13em;
+
+        height: 15.2em!important;
     }
-
     .fs-social {
-
-        font-size: 1.5vw;
+        font-size: 1.3vw!important;
     }
 
     .fs-title-content {
@@ -936,7 +923,7 @@ html {
     }
 
     .fs-text-footer {
-        font-size: 2vw;
+        font-size: 1.3vw!important;
     }
 
     .fs-text-after-footer {
@@ -986,7 +973,8 @@ html {
     }
 
     .padding-input {
-        padding-top: 13px;
+        padding-top: 13px!important;
+        padding-right: 0.5em!important;
     }
 
     .justify-content-responsive {
@@ -1010,18 +998,18 @@ html {
 
 }
 
-/*iphone x*/
+/*/*iphone x*/
 @media screen and (height: 375px) and (width: 812px) and (orientation: landscape) {
-    html {
-        transform: rotate(-90deg);
-        transform-origin: left top;
-        width: 100vh;
-        overflow-x: scroll;
-        overflow-y: hidden;
-        position: absolute;
-        top: 100%;
-        left: 0;
-    }
+    /*html {*/
+    /*    transform: rotate(-90deg);*/
+    /*    transform-origin: left top;*/
+    /*    width: 100vh;*/
+    /*    overflow-x: scroll;*/
+    /*    overflow-y: hidden;*/
+    /*    position: absolute;*/
+    /*    top: 100%;*/
+    /*    left: 0;*/
+    /*}*/
 
     /*--------------------- col ---------------------*/
     .col-response {
@@ -1029,12 +1017,14 @@ html {
     }
 
     /*--------------------- img ---------------------*/
-    .h-img {
-        height: auto;
-    }
+
 
     .h-img-start {
-        height: auto;
+        height: 106%!important;
+        width: 100%!important;
+    }
+    .h-img {
+        height: 79%!important;
     }
     .h-img-end {
         height: auto;
@@ -1048,19 +1038,19 @@ html {
 
         padding-left: 5px;
         transition: all 0.3s ease-in;
-        transform: translateY(8px)!important;
-        font-size: 1.5vw!important;
+        transform: translateY(13px)!important;
+        font-size: 1.7vw!important;
         pointer-events: none;
     }
 
     input:focus + label {
-        transform: translateY(0);
+        transform: translateY(5px)!important;
         font-size: 1.2vw!important;
         /*    */
     }
 
     .focusLabel {
-        transform: translateY(0);
+        transform: translateY(5px)!important;
         font-size: 1.2vw!important;
     }
 
@@ -1099,12 +1089,12 @@ html {
 
     /*کل متن چی چی؟؟*/
     .mt-md-8-sm-4 {
-        margin-top: 3em!important;
+        margin-top: 5em!important;
     }
 
     /*همین حالا ثبت نام کنید !*/
     .mt-response2 {
-        margin-top: 0!important;
+        margin-top: 8em!important;
     }
 
     .mt-response3 {
@@ -1133,7 +1123,7 @@ html {
 
 
     .mt-social-belief {
-        margin-top: 4em!important;
+        margin-top: 4.5em!important;
     }
 
     .mt-social-icon1 {
@@ -1141,7 +1131,7 @@ html {
     }
 
     .mt-social-icon2 {
-        margin-top: 4em!important;
+        margin-top: 4.5em!important;
     }
 
     .mt-response-sub-1-3 {
@@ -1165,8 +1155,11 @@ html {
     .mt-2v {
         margin-top: 0em!important;
     }
-    .mt-x{
-        margin-top: -40vh;
+    .mt-x {
+        margin-top: 3em;
+    }
+    .mt-ul-sm {
+        margin-top: 2.5em!important;
     }
     /*-------------------- width  --------------------*/
     .width-bt {
@@ -1184,7 +1177,7 @@ html {
     /*-------------------- height  --------------------*/
     /*height text box*/
     .height-txt {
-        height: 2em!important;
+        height: 2.8em!important;
     }
 
     .height-bt {
@@ -1212,12 +1205,12 @@ html {
     }
 
     .size-i-pad-social-icon {
-        height: 1.1em!important;
+        height: 1.5em!important;
     }
 
     .size-i-pad-social-belief {
-        height: 11vh !important;
-        width: 6vw !important;
+        height: 14vh !important;
+        width: 8vw !important;
     }
 
     .offset-response {
@@ -1227,32 +1220,25 @@ html {
     .height-error-mas {
         height: 2em;
     }
-    .h-img-start {
-        height: 80%!important;
-        width: 110%!important;
-    }
+    /*.h-img-start {*/
+    /*    height: 80%!important;*/
+    /*    width: 110%!important;*/
+    /*}*/
     .height-menu{
         height: 50px;
     }
-    .h-img {
-        height: 53%!important;
-        width: 116% !important;
+    .footer-height {
+        height: 7.5em!important;
     }
-    .h-img-end {
-        width: 118%!important;
-        height: 84%!important;
-    }
+
     /*-------------------- fontsize  --------------------*/
     .fs-text-error {
         font-size: 1.1vw!important;
     }
 
-    .footer-height {
-        height: 7em!important;
-    }
 
     .fs-social {
-        font-size: 0.8vw!important;
+        font-size: 1vw!important;
     }
 
     .fs-title-content {
@@ -1260,7 +1246,7 @@ html {
     }
 
     .fs-content {
-        font-size: 1.3vw!important;
+        font-size: 2vw!important;
     }
 
     .fs-txt-holder {
@@ -1280,7 +1266,7 @@ html {
     }
 
     .fs-sub-text-footer {
-        font-size: 0.8vw!important;
+        font-size: 1.2vw!important;
     }
 
     .fs-text-footer {
@@ -1292,22 +1278,22 @@ html {
     }
 
     .line-h-1 {
-        line-height: 14px!important;
+        line-height: 23px!important;
     }
 
     .line-h-2 {
-        line-height: 14px!important;
+        line-height: 23px!important;
     }
 
     .line-h-3 {
-        line-height: 14px!important;
+        line-height: 23px!important;
     }
 
     .fs-li-icon {
         font-size: 0.8vw;
     }
     .fs-subtitle-content {
-        font-size: 1.1vw!important;
+        font-size: 2vw!important;
     }
     .invite-friend {
         font-size: 1.2vw!important;
@@ -1336,8 +1322,8 @@ html {
 
     /*------------------ padding  -------------------*/
     .item-social-pr-pl-i-pad {
-        padding-right: 0!important;
-        padding-left: 0!important;
+        padding-right: 4.5625vw!important;
+        padding-left: 4.5625vw!important;
     }
 
     .pr-i-pad-0 {
@@ -1370,18 +1356,18 @@ html {
     }
 }
 
-/*pixel 2 xl*/
+/*!*pixel 2 xl*!*/
 @media screen and (height: 411px) and (width: 823px) and (orientation: landscape) {
-    html {
-        transform: rotate(-90deg);
-        transform-origin: left top;
-        width: 100vh;
-        overflow-x: scroll;
-        overflow-y: hidden;
-        position: absolute;
-        top: 100%;
-        left: 0;
-    }
+    /*html {*/
+    /*    transform: rotate(-90deg);*/
+    /*    transform-origin: left top;*/
+    /*    width: 100vh;*/
+    /*    overflow-x: scroll;*/
+    /*    overflow-y: hidden;*/
+    /*    position: absolute;*/
+    /*    top: 100%;*/
+    /*    left: 0;*/
+    /*}*/
 
     /*--------------------- col ---------------------*/
     .col-response {
@@ -1394,7 +1380,8 @@ html {
     }
 
     .h-img-start {
-        height: auto;
+        height: 98%!important;
+        width: 101%!important;
     }
     .h-img-end {
         height: auto;
@@ -1414,13 +1401,13 @@ html {
     }
 
     input:focus + label {
-        transform: translateY(0);
+        transform: translateY(0)!important;
         font-size: 1.2vw!important;
         /*    */
     }
 
     .focusLabel {
-        transform: translateY(0);
+        transform: translateY(0)!important;
         font-size: 1.2vw!important;
     }
 
@@ -1464,8 +1451,8 @@ html {
 
     /*همین حالا ثبت نام کنید !*/
     .mt-response2 {
-        margin-top: 0!important;
-    }
+        margin-top: 4em!important;
+     }
 
     .mt-response3 {
         margin-top: 0 !important;
@@ -1493,7 +1480,7 @@ html {
 
 
     .mt-social-belief {
-        margin-top: 4em!important;
+        margin-top: 4.8em!important;
     }
 
     .mt-social-icon1 {
@@ -1501,7 +1488,7 @@ html {
     }
 
     .mt-social-icon2 {
-        margin-top: 4em!important;
+        margin-top: 5em!important;
     }
 
     .mt-response-sub-1-3 {
@@ -1522,11 +1509,14 @@ html {
     .mt-2v {
         margin-top: 0em!important;
     }
-    .mt-x{
-        margin-top: -40vh;
+    .mt-x {
+        margin-top: 0;
     }
     .offset-response2 {
         margin-right: 1vw!important;
+    }
+    .mt-ul-sm {
+        margin-top: 3em!important;
     }
     /*-------------------- width  --------------------*/
     .width-bt {
@@ -1572,12 +1562,12 @@ html {
     }
 
     .size-i-pad-social-icon {
-        height: 1.1em!important;
+        height: 1.3em!important;
     }
 
     .size-i-pad-social-belief {
-        height: 11vh !important;
-        width: 6vw !important;
+        height: 14vh !important;
+        width: 9vw !important;
     }
 
     .offset-response {
@@ -1587,40 +1577,30 @@ html {
     .height-error-mas {
         height: 2em;
     }
-    .h-img-start {
-        height: 80%!important;
-        width: 110%!important;
-    }
+
     .height-menu{
         height: 50px;
     }
-    .h-img {
-        height: 53%!important;
-        width: 116% !important;
-    }
-    .h-img-end {
-        width: 118%!important;
-        height: 84%!important;
-    }
+
     /*-------------------- fontsize  --------------------*/
     .fs-text-error {
         font-size: 1.1vw!important;
     }
 
     .footer-height {
-        height: 7em!important;
+        height: 8em!important;
     }
 
     .fs-social {
-        font-size: 0.8vw!important;
+        font-size: 0.9vw!important;
     }
 
     .fs-title-content {
-        font-size: 1.7vw!important;
+        font-size: 3.5vw!important;
     }
 
     .fs-content {
-        font-size: 1.3vw!important;
+        font-size: 1.9vw!important;
     }
 
     .fs-txt-holder {
@@ -1640,34 +1620,34 @@ html {
     }
 
     .fs-sub-text-footer {
-        font-size: 0.8vw!important;
+        font-size: 1.3vw!important;
     }
 
     .fs-text-footer {
-        font-size: 1.2vw!important;
+        font-size: 1.7vw!important;
     }
 
     .fs-text-after-footer {
-        font-size: 1vw!important;
+        font-size: 1.3vw!important;
     }
 
     .line-h-1 {
-        line-height: 14px!important;
+        line-height: 20px!important;
     }
 
     .line-h-2 {
-        line-height: 14px!important;
+        line-height: 20px!important;
     }
 
     .line-h-3 {
-        line-height: 14px!important;
+        line-height: 20px!important;
     }
 
     .fs-li-icon {
         font-size: 0.8vw;
     }
     .fs-subtitle-content {
-        font-size: 1.3vw!important;
+        font-size: 2vw!important;
     }
     .invite-friend {
         font-size: 1.2vw!important;
@@ -1696,8 +1676,8 @@ html {
 
     /*------------------ padding  -------------------*/
     .item-social-pr-pl-i-pad {
-        padding-right: 0!important;
-        padding-left: 0!important;
+        padding-right: 5.5625vw!important;
+        padding-left: 5.5625vw!important;
     }
 
 
@@ -1721,7 +1701,7 @@ html {
 
     }
     .padding-ul-sm-md {
-        padding-right: 1vw!important;
+        padding-right: 2vw!important;
     }
     .pr-x {
         padding-right: 1.8vw !important;
@@ -1866,6 +1846,9 @@ ul{
 
 /*******************************************font-family**************************************/
 
+.font-IRANSans{
+    font-family: IRANSans, serif;
+}
 .font-bold {
     font-family: IRANSans-bold, serif;
 }
@@ -2389,6 +2372,7 @@ border-bottom: #058ffc solid 2px ;
     .offset-response {
         margin-right:3.333333%;
     }
+
     /*-------------------- padding  --------------------*/
 
 
@@ -2409,7 +2393,7 @@ border-bottom: #058ffc solid 2px ;
     }
     .mt-social-belief
     {
-        margin-top:4em!important
+        margin-top:4em
     }
     .mt-social-icon1
     {
@@ -3100,6 +3084,10 @@ border-bottom: #058ffc solid 2px ;
     .offset-response2 {
         margin-right: 12vw;
     }
+    .offset-response {
+        margin-right: auto!important;
+        margin-left: auto!important;
+    }
     /*-------------------- width  --------------------*/
 
     .width-bt {
@@ -3139,9 +3127,8 @@ border-bottom: #058ffc solid 2px ;
     }
 
     /*height footer*/
-    .footer-height
-    {
-        height: 40em ;
+    .footer-height {
+        height: 36em ;
     }
     .height-img-md-1
     {
@@ -3179,9 +3166,7 @@ border-bottom: #058ffc solid 2px ;
     .fs-text-footer {
         font-size: 4.5vw;
     }
-
     .fs-social {
-
         font-size: 4.5vw;
     }
     .fs-text-after-footer {
@@ -3228,7 +3213,7 @@ border-bottom: #058ffc solid 2px ;
 
     .justify-content-responsive {
         -ms-flex-pack:center!important;
-        justify-content:center!important;
+        justify-content:center;
     }
     .justify-content-2-responsive{
         -ms-flex-pack:center!important;
@@ -3358,9 +3343,8 @@ border-bottom: #058ffc solid 2px ;
     .mt-social-icon1 {
         margin-top: 0.4em !important
     }
-    .mt-social-icon2
-    {
-        margin-top:1em;
+    .mt-social-icon2 {
+        margin-top: 2em;
     }
     .mt-response-sub-1-3 {
         margin-top: 0.5em;
@@ -3461,7 +3445,7 @@ border-bottom: #058ffc solid 2px ;
     }
 
     .fs-txt-holder {
-        font-size: 1.8vw !important;
+        font-size: 2vw !important;
     }
 
     .fs-md-menu {
