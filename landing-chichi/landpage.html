@@ -9,35 +9,34 @@
     <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css"/>
     <link type="text/css" rel="stylesheet" href="css/style.css"/>
     <link type="text/css" rel="stylesheet" href="css/font-ir.css"/>
-
 </head>
 <body>
 
-<div class="container container-width " >
+<div class="container container-width  ">
     <div class=" mt-0 ">
         <div class="w-100 position-absolute z5 top-0 right-0  ">
             <nav class="navbar navbar-expand-lg navbar-light position-relative  d-flex flex-column" id="navbar">
-                <div class="display-responsive col-12 position-relative p-0 " style="height: 2.5em">
-                    <div class="display-responsive col-12 p-0  ">
-                        <div class=" w-100  d-flex  justify-content-between" dir="rtl">
+                <div class="display-responsive col-12 position-relative p-0 h-column " style="height: 2.5em">
+                    <div class="display-responsive col-12 p-0  mobile-nav-header">
+                        <div class=" w-100  d-flex  justify-content-between h-100" dir="rtl">
                             <button class="navbar-toggler pl-0 pr-0" type="button" data-toggle="collapse" id="btn-nav"
                                     data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                                     aria-expanded="false" aria-label="Toggle navigation">
                                 <span class="navbar-toggler-icon"></span>
                             </button>
                             <a class="    text-center fs-md-menu c-menu2  font-medium" href="#">
-                                <div class="img-chichi d-flex align-items-center">
+                                <div class="img-chichi d-flex align-items-center h-100">
                                     <img src="pic/chichi-icon.png" style=" width: 100% ; object-fit: scale-down" alt="">
                                 </div>
                             </a>
                             <div class="d-flex align-items-center">
-                                <a class="    fs-md-menu c-menu    font-medium headerLink" href="#">ثبت نام</a>
+                                <a class="    fs-md-menu c-menu    font-medium headerLink" href="#sing-up">ثبت نام</a>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="w-100 d-flex justify-content-end  m-response2 height-menu">
-                  <div  id="navbarSupportedContent" class="collapse navbar-collapse  navbarSupportedContent col-6  pad-r-0-land   ">
+                  <div  id="navbarSupportedContent" class="collapse navbar-collapse  navbarSupportedContent col-6  p-0   ">
                         <ul class="navbar-nav  mr-auto mt-menu  w-100 d-flex justify-content-between height-menu "
                             style="height: 10vh">
                             <li class="nav-item active ">
@@ -165,17 +164,11 @@
                     </div>
                  </div>
 
-
                     <!--margin-top bt-->
                     <div class="mt-bt" id="mt-bt">
                     </div>
 
-
-
-
                 </div>
-
-
 
             </div>
 
@@ -184,7 +177,7 @@
 <!--            div for responsive           -->
 
         </div>
-        <div class=" col-md-5 col-sm-12 mt-5 p-0 position-img2" >
+        <div class=" col-md-5 col-sm-12 mt-5 p-0 position-img2 pt-img-2-mac" >
             <img src="pic/img-middle.svg" class="width-r-img2 h-img" alt="چی چی" style="width: 100%  ">
         </div>
     </div>
@@ -300,16 +293,16 @@
                 </div>
                 <div class="d-flex flexrow-footer w-100 mt-social-icon1    ">
                     <div class="col-3 d-flex justify-content-center p-0  size-i-pad-social-icon">
-                        <img src="pic/aparat_icon.svg"  alt="آپارات" class="cursor-pointer" id="img1" href="#">
+                        <img src="pic/aparat_icon.svg"  alt="آپارات" class="cursor-pointer w-h-100-mac" id="img1" href="#">
                     </div>
                     <div class="col-3 d-flex justify-content-center p-0 size-i-pad-social-icon  ">
-                        <img src="pic/telegram_icon.svg" alt="تلگرام" class="cursor-pointer" id="img2" href="#">
+                        <img src="pic/telegram_icon.svg" alt="تلگرام" class="cursor-pointer w-h-100-mac" id="img2" href="#">
                     </div>
                     <div class="col-3 d-flex justify-content-center p-0  size-i-pad-social-icon  " >
-                        <img src="pic/instagram_icon.svg" alt="اینستاگرام" class="cursor-pointer" id="img3" href="#">
+                        <img src="pic/instagram_icon.svg" alt="اینستاگرام" class="cursor-pointer w-h-100-mac" id="img3" href="#">
                     </div>
                     <div class="col-3 d-flex justify-content-center p-0  size-i-pad-social-icon  ">
-                        <img src="pic/twitter_icon.svg"   alt="twitter" class="cursor-pointer" id="img4" href="#">
+                        <img src="pic/twitter_icon.svg"   alt="twitter" class="cursor-pointer w-h-100-mac" id="img4" href="#">
                     </div>
                 </div>
             </div>
@@ -356,8 +349,7 @@
         let person_family_label = document.getElementById("label-person-family") ;
         let code = document.getElementById("code") ;
         let code_label = document.getElementById("label-code") ;
-<!--                            label-your-num   label-name-friend    label-familly-friend  label-num-friend-->
-        let your_num = document.getElementById("your-num") ;
+         let your_num = document.getElementById("your-num") ;
         let label_your_num = document.getElementById("label-your-num") ;
         let name_friend = document.getElementById("name-friend") ;
         let label_name_friend = document.getElementById("label-name-friend") ;
@@ -639,8 +631,7 @@
                     validationCode=Description.toString()
                     if ( $("#code").val() === Description.toString()){
                         code_label.classList.add("opacity-0");
-                        <!--                        import  code btn-sing-up-->
-
+ 
                         // $( "import").fadeOut();
                         $( '#div-hidden').fadeOut();
                         // $( "btn-sing-up").fadeOut();
