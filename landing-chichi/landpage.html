@@ -12,7 +12,7 @@
 </head>
 <body>
 
-<div class="container container-width  ">
+<div class="container container-width bg-container ">
     <div class=" mt-0 ">
         <div class="w-100 position-absolute z5 top-0 right-0  ">
             <nav class="navbar navbar-expand-lg navbar-light position-relative  d-flex flex-column" id="navbar">
@@ -121,13 +121,13 @@
                         <span id="loading1" class="load fs-15vw font-bold" style="display:none ; width: 20px;"> <img src="pic/load.svg"> </span>
                         <span id="import" class="font-bold fs-massage" style="display:none ; color: #5d6e5f">کد ارسال شده را وارد کنید</span><br>
                         <div class="form position-relative w-100">
-                            <input type="number" id="code" max="4" class="padding-input txt-b border-ra-text fs-txt-holder col-8 height-txt  font-light  " style="display:none ">
+                            <input type="number" id="code"   class="padding-input txt-b border-ra-text fs-txt-holder col-8 height-txt  font-light  " style="display:none "  oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);" maxlength = "4">
                             <label class="font-light   col-8 offset-2 position-absolute d-flex justify-content-start top-0 right-0 opacity-0" id="label-code" style="color:#929393 ;  ">کد فعال سازی</label>
                         </div>
                          <small id="error-code-sing-in-recivide" class="font-medium form-text col-md-9 col-sm-8 offset-2 fs-text-error text-left c-error" ></small>
                     </div>
                     <div class="form position-relative w-100">
-                        <input type="number" id="person-number" class=" padding-input txt-b border-ra-text fs-txt-holder col-8 height-txt  font-light  ">
+                        <input type="number" id="person-number" class=" padding-input txt-b border-ra-text fs-txt-holder col-8 height-txt  font-light" oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);" maxlength = "11">
                         <label class="font-light   col-8 offset-2 position-absolute d-flex justify-content-start top-0 right-0"
                                id="label-person-number" style="color:#929393 ">شماره همراه</label>
                     </div>
@@ -135,17 +135,15 @@
                     <small id="error-code-sing-in1" class="font-medium form-text col-md-9 col-sm-8 offset-2 fs-text-error text-left mt-auto mb-auto height-error-mas c-error"  ></small>
 
                     <div class="form position-relative w-100">
-                        <input type="text" id="person-name" class=" padding-input txt-b border-ra-text fs-txt-holder col-8 height-txt  font-light  ">
-                        <label class="font-light   col-8 offset-2 position-absolute d-flex justify-content-start top-0 right-0"
-                               id="label-person-name" style="color:#929393 ">نام</label>
+                        <input type="text" maxlength="20" id="person-name" class=" padding-input txt-b border-ra-text fs-txt-holder col-8 height-txt  font-light  " >
+                        <label class="font-light   col-8 offset-2 position-absolute d-flex justify-content-start top-0 right-0" id="label-person-name" style="color:#929393 ">نام</label>
                     </div>
                     <!--************************ error-code-sing-in-2 **********************-->
                     <small id="error-code-sing-in2" class="font-medium form-text col-md-9 col-sm-8 offset-2 fs-text-error text-left mt-auto mb-auto height-error-mas c-error"  ></small>
 
                     <div class="form position-relative w-100">
-                        <input type="text" id="person-family" class=" padding-input txt-b border-ra-text fs-txt-holder col-8 height-txt  font-light  ">
-                        <label class="font-light   col-8 offset-2 position-absolute d-flex justify-content-start top-0 right-0"
-                               id="label-person-family" style="color:#929393 ">نام خانوادگی</label>
+                        <input type="text" maxlength="20" id="person-family" class=" padding-input txt-b border-ra-text fs-txt-holder col-8 height-txt  font-light  ">
+                        <label class="font-light   col-8 offset-2 position-absolute d-flex justify-content-start top-0 right-0" id="label-person-family" style="color:#929393 ">نام خانوادگی</label>
                     </div>
                     <!--************************ error-code-sing-in-2 **********************-->
                     <small id="error-code-sing-in3" class="font-medium form-text col-md-9 col-sm-8 offset-2 fs-text-error text-left c-error" ></small>
@@ -203,7 +201,7 @@
                             </div>
 
                             <div class="form position-relative w-100">
-                                <input type="number" id="your-num" class="  padding-input txt-b border-ra-text fs-txt-holder width-txt height-txt  font-light  ">
+                                <input type="number" id="your-num" class="  padding-input txt-b border-ra-text fs-txt-holder width-txt height-txt  font-light" oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);" maxlength = "11">
                                 <label class="font-light offset-response2  width-txt  position-absolute d-flex justify-content-start top-0 right-1"
                                        id="label-your-num" style="color:#929393 ">شماره همراه شما</label>
                             </div>
@@ -213,9 +211,8 @@
 
 
                             <div class="form position-relative w-100">
-                                <input type="text" id="name-friend" class="  padding-input txt-b border-ra-text fs-txt-holder width-txt height-txt  font-light  ">
-                                <label class="font-light  offset-response2 width-txt  position-absolute d-flex justify-content-start top-0 right-1"
-                                       id="label-name-friend" style="color:#929393 ">نام دوستتان</label>
+                                <input type="text" maxlength="20" id="name-friend" class="  padding-input txt-b border-ra-text fs-txt-holder width-txt height-txt  font-light  ">
+                                <label class="font-light  offset-response2 width-txt  position-absolute d-flex justify-content-start top-0 right-1" id="label-name-friend" style="color:#929393 ">نام دوستتان</label>
                             </div>
 
                             <div class="col-12 d-flex justify-content-error-ms ">
@@ -223,10 +220,8 @@
                             </div>
 
                             <div class="form position-relative w-100">
-                                <input type="text" id="familly-friend"
-                                       class=" padding-input txt-b border-ra-text fs-txt-holder width-txt height-txt  font-light  ">
-                                <label class="font-light offset-response2  width-txt  position-absolute d-flex justify-content-start top-0 right-1"
-                                       id="label-familly-friend" style="color:#929393 ">نام خانوادگی دوستتان</label>
+                                <input type="text" id="familly-friend" maxlength="20" class=" padding-input txt-b border-ra-text fs-txt-holder width-txt height-txt  font-light  ">
+                                <label class="font-light offset-response2  width-txt  position-absolute d-flex justify-content-start top-0 right-1" id="label-familly-friend" style="color:#929393 ">نام خانوادگی دوستتان</label>
                             </div>
 
                             <div class="col-12 d-flex justify-content-error-ms">
@@ -234,10 +229,8 @@
                             </div>
 
                             <div class="form position-relative w-100">
-                                <input type="number" id="num-friend"
-                                       class=" padding-input txt-b border-ra-text fs-txt-holder width-txt height-txt  font-light  ">
-                                <label class="font-light  offset-response2 width-txt  position-absolute d-flex justify-content-start top-0 right-1"
-                                       id="label-num-friend" style="color:#929393 ">شماره همراه دوستتان</label>
+                                <input type="number" id="num-friend" class=" padding-input txt-b border-ra-text fs-txt-holder width-txt height-txt  font-light  " oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);" maxlength = "11">
+                                <label class="font-light  offset-response2 width-txt  position-absolute d-flex justify-content-start top-0 right-1" id="label-num-friend" style="color:#929393 ">شماره همراه دوستتان</label>
                             </div>
 
                             <div class="col-12 d-flex justify-content-error-ms ">
@@ -480,7 +473,7 @@
 
         function Validation(str,kind){
             function isValid1(str) {
-                return !/[~`!@#$%\^&*()+=\-\[\]\\';,/{}|\\":<>1234567890\?]/g.test(str);
+                return !/[~`!@#$%\^&*()+=\-\[\]\\';,/{}|\\":<>1234567890\?qwertyuioplkjhgfdsazxcvbnmQWERTYUIOPLKJHGFDSAZXCVBNM]/g.test(str);
             }
             function isValid2(str) {
                 return !/[~`!@#$%\^&*()+=\-\[\]\\';,/{}|\\":<>\?]/g.test(str);
