@@ -2,6 +2,8 @@ html {
     scroll-behavior: smooth;
 }
 
+
+
 /*overflow x y*/
 
 .overflow-y-hidden {
@@ -91,46 +93,6 @@ form {
     display: flex;
     flex-direction: column;
 }
-
-
-/*label {*/
-
-
-/*    !*order: -1;*!*/
-
-
-/*    padding-left: 5px;*/
-
-
-/*     transition: all 0.3s ease-in;*/
-
-
-/*    transform: translateY(24px);*/
-
-
-/*    font-size: 1vw;*/
-
-
-/*    pointer-events: none;*/
-
-
-/*}*/
-
-
-/*input:focus + label {*/
-
-
-/*    transform: translateY(2px);*/
-
-
-/*    font-size: 0.8vw;*/
-
-
-/*!*    *!*/
-
-
-/*}*/
-
 
 /*!*******************************************font-size**************************************!*/
 
@@ -626,6 +588,7 @@ input[type=number] {
     .height-img-md-1 {
         height: auto;
     }
+
     /*-------- height div for responsive in (2) -------*/
     .div-height {
         height: 10em;
@@ -830,11 +793,12 @@ input[type=number] {
 
 @media only screen and (max-width: 766px) and (max-height: 1366px) {
 
-
+ 
     /*--------------------- col ---------------------*/
     .col-response {
         width: 41.66% !important;
     }
+ 
 
     /*--------------------- img ---------------------*/
     .h-img {
@@ -1014,7 +978,7 @@ input[type=number] {
 
     /*height sm md i-pad-pro chichi*/
     .h-sm-md {
-        height: 30%;
+        height: 50vw!important;
     }
 
     /*height footer*/
@@ -1025,7 +989,7 @@ input[type=number] {
     .height-img-md-1 {
         height: auto;
     }
-
+ 
     /*-------------------- fontsize  --------------------*/
     .fs-text-error {
         font-size: 2.2vw;
@@ -1235,7 +1199,7 @@ input[type=number] {
         margin-top: 1em;
     }
     .m-response1 {
-        margin-right: 6vw !important;
+        margin-right: 5vw !important;
     }
     .mt-image-1 {
         margin-top: 0.5em;
@@ -1267,8 +1231,11 @@ input[type=number] {
     .mt-social-icon1 {
         margin-top: 0!important;
     }
-    .m-response2 {
+    /* .m-response2 {
         margin-right: 9%;
+    } */
+       .m-response2 {
+        margin-right: 3.5%;
     }
     .m-response3 {
         margin-right: 9%;
@@ -1337,6 +1304,7 @@ input[type=number] {
     .height-menu {
             height: 8vw !important;
         }
+ 
         /*-------------------- fontsize  --------------------*/
     .invite-friend {
         font-size: 1.4vw;
@@ -1393,9 +1361,9 @@ input[type=number] {
         -ms-flex-pack: end!important;
         justify-content: flex-end!important;
     }
-    .mobile-nav-header{
+    .mobile-nav-header {
         align-items: center;
-        width: 91.5%;
+        width: 95%;
     }
     /*------------------ display  -------------------*/
     /*------------------ size  -------------------*/
@@ -1420,8 +1388,11 @@ input[type=number] {
         background-image: url("../pic/footer1.png");
     }
     /*------------------  position  -------------------*/
-    .position-img2 {
+    /* .position-img2 {
         right: 6vw !important;
+    } */
+    .position-img2 {
+        right: 6.2vw !important;
     }
 
 }
@@ -1539,8 +1510,8 @@ input[type=number] {
         margin-top: 3%!important;
     }
     .m-response2 {
-        margin-right: 9%;
-        /*margin-right: 10% !important;*/
+        margin-right: 11%;
+        /* margin-right: 10% !important; */
     }
     .m-response3 {
         margin-right: 9% !important;
@@ -1674,6 +1645,9 @@ input[type=number] {
     }
     .offset-response {
         margin-right: 3.333333%;
+    }
+    .h-chichi{
+        height: 25vw;
     }
     /*-------------------- padding  --------------------*/
     .pr-i-pad-0 {
@@ -1813,6 +1787,7 @@ input[type=number] {
 
 /*mac*/
 @media screen and (min-width: 2559px)  {
+
     /*--------------------- col ---------------------*/
     .col-response {
         width: 41.66% !important;
@@ -1966,8 +1941,9 @@ input[type=number] {
         margin-top: 1em;
     }
     .mt-between-chichi {
-        margin-top: 0.95em;
+        margin-top: 2% ;
     }
+
     .border-ra-text {
         border-radius: 16px;
     }
@@ -1981,6 +1957,7 @@ input[type=number] {
     .height-img-md-1 {
         height: 40vw;
     }
+ 
     /*-------- height div for responsive in (2) -------*/
     .div-height {
         height: 0;
@@ -2002,7 +1979,7 @@ input[type=number] {
         /**/
     }
     .mt-bt1 {
-        margin-top: 1em;
+        margin-top: 2%;
     }
     .mt-bt {
         margin-top: 11.5em;
@@ -2058,6 +2035,9 @@ input[type=number] {
     }
     .offset-response {
         margin-right: 3.333333%;
+    }
+    .h-chichi{
+        height: 50%;
     }
     /*-------------------- padding  --------------------*/
     .pr-i-pad-0 {
@@ -2161,7 +2141,10 @@ input[type=number] {
         -ms-flex-align: end !important;
         align-items: flex-end !important;
     }
-    .text-center-sm {}
+    .text-center-sm{
+
+    }
+
     .align-items-sm-md-i-pad {
         align-items: center;
     }
@@ -2193,8 +2176,9 @@ input[type=number] {
     .justify-content-error-ms {
         justify-content: end !important;
     }
-
 }
+
+
 
 /***************************************** End media *****************************************/
 
