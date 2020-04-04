@@ -13,7 +13,7 @@ spec:
       name: chichilanding
     spec:
       containers:
-      - image: includeamin/chichilanding:13
+      - image: registry.api.chichiapp.ir:4443/chichi/chichilanding:14
         imagePullPolicy: IfNotPresent
         name: chichilanding
         ports:
